@@ -1,0 +1,930 @@
+{
+  "voice": "he-IL-HilaNeural",
+  "rate": "-35%",
+  "source": "Sefaria Genesis 1 source text",
+  "notes": "Cantillation removed; niqqud retained. Word forms deduplicated.",
+  "verses": {
+    "1": {
+      "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ׃",
+      "file": "verses/genesis-1-01.mp3"
+    },
+    "2": {
+      "hebrew": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃",
+      "file": "verses/genesis-1-02.mp3"
+    },
+    "3": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַֽיְהִי־אֽוֹר׃",
+      "file": "verses/genesis-1-03.mp3"
+    },
+    "4": {
+      "hebrew": "וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ׃",
+      "file": "verses/genesis-1-04.mp3"
+    },
+    "5": {
+      "hebrew": "וַיִּקְרָא אֱלֹהִים ׀ לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד׃ {פ}",
+      "file": "verses/genesis-1-05.mp3"
+    },
+    "6": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָֽיִם׃",
+      "file": "verses/genesis-1-06.mp3"
+    },
+    "7": {
+      "hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַֽיְהִי־כֵֽן׃",
+      "file": "verses/genesis-1-07.mp3"
+    },
+    "8": {
+      "hebrew": "וַיִּקְרָא אֱלֹהִים לָֽרָקִיעַ שָׁמָיִם וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם שֵׁנִֽי׃ {פ}",
+      "file": "verses/genesis-1-08.mp3"
+    },
+    "9": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל־מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי־כֵֽן׃",
+      "file": "verses/genesis-1-09.mp3"
+    },
+    "10": {
+      "hebrew": "וַיִּקְרָא אֱלֹהִים ׀ לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+      "file": "verses/genesis-1-10.mp3"
+    },
+    "11": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃",
+      "file": "verses/genesis-1-11.mp3"
+    },
+    "12": {
+      "hebrew": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+      "file": "verses/genesis-1-12.mp3"
+    },
+    "13": {
+      "hebrew": "וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם שְׁלִישִֽׁי׃ {פ}",
+      "file": "verses/genesis-1-13.mp3"
+    },
+    "14": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִֽים׃",
+      "file": "verses/genesis-1-14.mp3"
+    },
+    "15": {
+      "hebrew": "וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃",
+      "file": "verses/genesis-1-15.mp3"
+    },
+    "16": {
+      "hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת־שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים אֶת־הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם וְאֶת־הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה וְאֵת הַכּוֹכָבִֽים׃",
+      "file": "verses/genesis-1-16.mp3"
+    },
+    "17": {
+      "hebrew": "וַיִּתֵּן אֹתָם אֱלֹהִים בִּרְקִיעַ הַשָּׁמָיִם לְהָאִיר עַל־הָאָֽרֶץ׃",
+      "file": "verses/genesis-1-17.mp3"
+    },
+    "18": {
+      "hebrew": "וְלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה וּֽלְהַבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+      "file": "verses/genesis-1-18.mp3"
+    },
+    "19": {
+      "hebrew": "וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם רְבִיעִֽי׃ {פ}",
+      "file": "verses/genesis-1-19.mp3"
+    },
+    "20": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ עַל־פְּנֵי רְקִיעַ הַשָּׁמָֽיִם׃",
+      "file": "verses/genesis-1-20.mp3"
+    },
+    "21": {
+      "hebrew": "וַיִּבְרָא אֱלֹהִים אֶת־הַתַּנִּינִם הַגְּדֹלִים וְאֵת כׇּל־נֶפֶשׁ הַֽחַיָּה ׀ הָֽרֹמֶשֶׂת אֲשֶׁר שָׁרְצוּ הַמַּיִם לְמִֽינֵהֶם וְאֵת כׇּל־עוֹף כָּנָף לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+      "file": "verses/genesis-1-21.mp3"
+    },
+    "22": {
+      "hebrew": "וַיְבָרֶךְ אֹתָם אֱלֹהִים לֵאמֹר פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הַמַּיִם בַּיַּמִּים וְהָעוֹף יִרֶב בָּאָֽרֶץ׃",
+      "file": "verses/genesis-1-22.mp3"
+    },
+    "23": {
+      "hebrew": "וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם חֲמִישִֽׁי׃ {פ}",
+      "file": "verses/genesis-1-23.mp3"
+    },
+    "24": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים תּוֹצֵא הָאָרֶץ נֶפֶשׁ חַיָּה לְמִינָהּ בְּהֵמָה וָרֶמֶשׂ וְחַֽיְתוֹ־אֶרֶץ לְמִינָהּ וַֽיְהִי־כֵֽן׃",
+      "file": "verses/genesis-1-24.mp3"
+    },
+    "25": {
+      "hebrew": "וַיַּעַשׂ אֱלֹהִים אֶת־חַיַּת הָאָרֶץ לְמִינָהּ וְאֶת־הַבְּהֵמָה לְמִינָהּ וְאֵת כׇּל־רֶמֶשׂ הָֽאֲדָמָה לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+      "file": "verses/genesis-1-25.mp3"
+    },
+    "26": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכׇל־הָאָרֶץ וּבְכׇל־הָרֶמֶשׂ הָֽרֹמֵשׂ עַל־הָאָֽרֶץ׃",
+      "file": "verses/genesis-1-26.mp3"
+    },
+    "27": {
+      "hebrew": "וַיִּבְרָא אֱלֹהִים ׀ אֶת־הָֽאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָֽם׃",
+      "file": "verses/genesis-1-27.mp3"
+    },
+    "28": {
+      "hebrew": "וַיְבָרֶךְ אֹתָם אֱלֹהִים וַיֹּאמֶר לָהֶם אֱלֹהִים פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָרֶץ וְכִבְשֻׁהָ וּרְדוּ בִּדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבְכׇל־חַיָּה הָֽרֹמֶשֶׂת עַל־הָאָֽרֶץ׃",
+      "file": "verses/genesis-1-28.mp3"
+    },
+    "29": {
+      "hebrew": "וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת־כׇּל־עֵשֶׂב ׀ זֹרֵעַ זֶרַע אֲשֶׁר עַל־פְּנֵי כׇל־הָאָרֶץ וְאֶת־כׇּל־הָעֵץ אֲשֶׁר־בּוֹ פְרִי־עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאׇכְלָֽה׃",
+      "file": "verses/genesis-1-29.mp3"
+    },
+    "30": {
+      "hebrew": "וּֽלְכׇל־חַיַּת הָאָרֶץ וּלְכׇל־עוֹף הַשָּׁמַיִם וּלְכֹל ׀ רוֹמֵשׂ עַל־הָאָרֶץ אֲשֶׁר־בּוֹ נֶפֶשׁ חַיָּה אֶת־כׇּל־יֶרֶק עֵשֶׂב לְאׇכְלָה וַֽיְהִי־כֵֽן׃",
+      "file": "verses/genesis-1-30.mp3"
+    },
+    "31": {
+      "hebrew": "וַיַּרְא אֱלֹהִים אֶת־כׇּל־אֲשֶׁר עָשָׂה וְהִנֵּה־טוֹב מְאֹד וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם הַשִּׁשִּֽׁי׃ {פ}",
+      "file": "verses/genesis-1-31.mp3"
+    }
+  },
+  "words": {
+    "בְּרֵאשִׁית": {
+      "file": "words/word-001.mp3",
+      "first_seen_verse": 1
+    },
+    "בָּרָא": {
+      "file": "words/word-002.mp3",
+      "first_seen_verse": 1
+    },
+    "אֱלֹהִים": {
+      "file": "words/word-003.mp3",
+      "first_seen_verse": 1
+    },
+    "אֵת": {
+      "file": "words/word-004.mp3",
+      "first_seen_verse": 1
+    },
+    "הַשָּׁמַיִם": {
+      "file": "words/word-005.mp3",
+      "first_seen_verse": 1
+    },
+    "וְאֵת": {
+      "file": "words/word-006.mp3",
+      "first_seen_verse": 1
+    },
+    "הָאָֽרֶץ": {
+      "file": "words/word-007.mp3",
+      "first_seen_verse": 1
+    },
+    "וְהָאָרֶץ": {
+      "file": "words/word-008.mp3",
+      "first_seen_verse": 2
+    },
+    "הָיְתָה": {
+      "file": "words/word-009.mp3",
+      "first_seen_verse": 2
+    },
+    "תֹהוּ": {
+      "file": "words/word-010.mp3",
+      "first_seen_verse": 2
+    },
+    "וָבֹהוּ": {
+      "file": "words/word-011.mp3",
+      "first_seen_verse": 2
+    },
+    "וְחֹשֶׁךְ": {
+      "file": "words/word-012.mp3",
+      "first_seen_verse": 2
+    },
+    "עַל": {
+      "file": "words/word-013.mp3",
+      "first_seen_verse": 2
+    },
+    "פְּנֵי": {
+      "file": "words/word-014.mp3",
+      "first_seen_verse": 2
+    },
+    "תְהוֹם": {
+      "file": "words/word-015.mp3",
+      "first_seen_verse": 2
+    },
+    "וְרוּחַ": {
+      "file": "words/word-016.mp3",
+      "first_seen_verse": 2
+    },
+    "מְרַחֶפֶת": {
+      "file": "words/word-017.mp3",
+      "first_seen_verse": 2
+    },
+    "הַמָּֽיִם": {
+      "file": "words/word-018.mp3",
+      "first_seen_verse": 2
+    },
+    "וַיֹּאמֶר": {
+      "file": "words/word-019.mp3",
+      "first_seen_verse": 3
+    },
+    "יְהִי": {
+      "file": "words/word-020.mp3",
+      "first_seen_verse": 3
+    },
+    "אוֹר": {
+      "file": "words/word-021.mp3",
+      "first_seen_verse": 3
+    },
+    "וַֽיְהִי": {
+      "file": "words/word-022.mp3",
+      "first_seen_verse": 3
+    },
+    "אֽוֹר": {
+      "file": "words/word-023.mp3",
+      "first_seen_verse": 3
+    },
+    "וַיַּרְא": {
+      "file": "words/word-024.mp3",
+      "first_seen_verse": 4
+    },
+    "אֶת": {
+      "file": "words/word-025.mp3",
+      "first_seen_verse": 4
+    },
+    "הָאוֹר": {
+      "file": "words/word-026.mp3",
+      "first_seen_verse": 4
+    },
+    "כִּי": {
+      "file": "words/word-027.mp3",
+      "first_seen_verse": 4
+    },
+    "טוֹב": {
+      "file": "words/word-028.mp3",
+      "first_seen_verse": 4
+    },
+    "וַיַּבְדֵּל": {
+      "file": "words/word-029.mp3",
+      "first_seen_verse": 4
+    },
+    "בֵּין": {
+      "file": "words/word-030.mp3",
+      "first_seen_verse": 4
+    },
+    "וּבֵין": {
+      "file": "words/word-031.mp3",
+      "first_seen_verse": 4
+    },
+    "הַחֹֽשֶׁךְ": {
+      "file": "words/word-032.mp3",
+      "first_seen_verse": 4
+    },
+    "וַיִּקְרָא": {
+      "file": "words/word-033.mp3",
+      "first_seen_verse": 5
+    },
+    "לָאוֹר": {
+      "file": "words/word-034.mp3",
+      "first_seen_verse": 5
+    },
+    "יוֹם": {
+      "file": "words/word-035.mp3",
+      "first_seen_verse": 5
+    },
+    "וְלַחֹשֶׁךְ": {
+      "file": "words/word-036.mp3",
+      "first_seen_verse": 5
+    },
+    "קָרָא": {
+      "file": "words/word-037.mp3",
+      "first_seen_verse": 5
+    },
+    "לָיְלָה": {
+      "file": "words/word-038.mp3",
+      "first_seen_verse": 5
+    },
+    "עֶרֶב": {
+      "file": "words/word-039.mp3",
+      "first_seen_verse": 5
+    },
+    "בֹקֶר": {
+      "file": "words/word-040.mp3",
+      "first_seen_verse": 5
+    },
+    "אֶחָֽד": {
+      "file": "words/word-041.mp3",
+      "first_seen_verse": 5
+    },
+    "פ": {
+      "file": "words/word-042.mp3",
+      "first_seen_verse": 5
+    },
+    "רָקִיעַ": {
+      "file": "words/word-043.mp3",
+      "first_seen_verse": 6
+    },
+    "בְּתוֹךְ": {
+      "file": "words/word-044.mp3",
+      "first_seen_verse": 6
+    },
+    "הַמָּיִם": {
+      "file": "words/word-045.mp3",
+      "first_seen_verse": 6
+    },
+    "וִיהִי": {
+      "file": "words/word-046.mp3",
+      "first_seen_verse": 6
+    },
+    "מַבְדִּיל": {
+      "file": "words/word-047.mp3",
+      "first_seen_verse": 6
+    },
+    "מַיִם": {
+      "file": "words/word-048.mp3",
+      "first_seen_verse": 6
+    },
+    "לָמָֽיִם": {
+      "file": "words/word-049.mp3",
+      "first_seen_verse": 6
+    },
+    "וַיַּעַשׂ": {
+      "file": "words/word-050.mp3",
+      "first_seen_verse": 7
+    },
+    "הָרָקִיעַ": {
+      "file": "words/word-051.mp3",
+      "first_seen_verse": 7
+    },
+    "הַמַּיִם": {
+      "file": "words/word-052.mp3",
+      "first_seen_verse": 7
+    },
+    "אֲשֶׁר": {
+      "file": "words/word-053.mp3",
+      "first_seen_verse": 7
+    },
+    "מִתַּחַת": {
+      "file": "words/word-054.mp3",
+      "first_seen_verse": 7
+    },
+    "לָרָקִיעַ": {
+      "file": "words/word-055.mp3",
+      "first_seen_verse": 7
+    },
+    "מֵעַל": {
+      "file": "words/word-056.mp3",
+      "first_seen_verse": 7
+    },
+    "כֵֽן": {
+      "file": "words/word-057.mp3",
+      "first_seen_verse": 7
+    },
+    "לָֽרָקִיעַ": {
+      "file": "words/word-058.mp3",
+      "first_seen_verse": 8
+    },
+    "שָׁמָיִם": {
+      "file": "words/word-059.mp3",
+      "first_seen_verse": 8
+    },
+    "שֵׁנִֽי": {
+      "file": "words/word-060.mp3",
+      "first_seen_verse": 8
+    },
+    "יִקָּווּ": {
+      "file": "words/word-061.mp3",
+      "first_seen_verse": 9
+    },
+    "אֶל": {
+      "file": "words/word-062.mp3",
+      "first_seen_verse": 9
+    },
+    "מָקוֹם": {
+      "file": "words/word-063.mp3",
+      "first_seen_verse": 9
+    },
+    "אֶחָד": {
+      "file": "words/word-064.mp3",
+      "first_seen_verse": 9
+    },
+    "וְתֵרָאֶה": {
+      "file": "words/word-065.mp3",
+      "first_seen_verse": 9
+    },
+    "הַיַּבָּשָׁה": {
+      "file": "words/word-066.mp3",
+      "first_seen_verse": 9
+    },
+    "לַיַּבָּשָׁה": {
+      "file": "words/word-067.mp3",
+      "first_seen_verse": 10
+    },
+    "אֶרֶץ": {
+      "file": "words/word-068.mp3",
+      "first_seen_verse": 10
+    },
+    "וּלְמִקְוֵה": {
+      "file": "words/word-069.mp3",
+      "first_seen_verse": 10
+    },
+    "יַמִּים": {
+      "file": "words/word-070.mp3",
+      "first_seen_verse": 10
+    },
+    "טֽוֹב": {
+      "file": "words/word-071.mp3",
+      "first_seen_verse": 10
+    },
+    "תַּֽדְשֵׁא": {
+      "file": "words/word-072.mp3",
+      "first_seen_verse": 11
+    },
+    "הָאָרֶץ": {
+      "file": "words/word-073.mp3",
+      "first_seen_verse": 11
+    },
+    "דֶּשֶׁא": {
+      "file": "words/word-074.mp3",
+      "first_seen_verse": 11
+    },
+    "עֵשֶׂב": {
+      "file": "words/word-075.mp3",
+      "first_seen_verse": 11
+    },
+    "מַזְרִיעַ": {
+      "file": "words/word-076.mp3",
+      "first_seen_verse": 11
+    },
+    "זֶרַע": {
+      "file": "words/word-077.mp3",
+      "first_seen_verse": 11
+    },
+    "עֵץ": {
+      "file": "words/word-078.mp3",
+      "first_seen_verse": 11
+    },
+    "פְּרִי": {
+      "file": "words/word-079.mp3",
+      "first_seen_verse": 11
+    },
+    "עֹשֶׂה": {
+      "file": "words/word-080.mp3",
+      "first_seen_verse": 11
+    },
+    "לְמִינוֹ": {
+      "file": "words/word-081.mp3",
+      "first_seen_verse": 11
+    },
+    "זַרְעוֹ": {
+      "file": "words/word-082.mp3",
+      "first_seen_verse": 11
+    },
+    "בוֹ": {
+      "file": "words/word-083.mp3",
+      "first_seen_verse": 11
+    },
+    "וַתּוֹצֵא": {
+      "file": "words/word-084.mp3",
+      "first_seen_verse": 12
+    },
+    "לְמִינֵהוּ": {
+      "file": "words/word-085.mp3",
+      "first_seen_verse": 12
+    },
+    "וְעֵץ": {
+      "file": "words/word-086.mp3",
+      "first_seen_verse": 12
+    },
+    "עֹֽשֶׂה": {
+      "file": "words/word-087.mp3",
+      "first_seen_verse": 12
+    },
+    "שְׁלִישִֽׁי": {
+      "file": "words/word-088.mp3",
+      "first_seen_verse": 13
+    },
+    "מְאֹרֹת": {
+      "file": "words/word-089.mp3",
+      "first_seen_verse": 14
+    },
+    "בִּרְקִיעַ": {
+      "file": "words/word-090.mp3",
+      "first_seen_verse": 14
+    },
+    "לְהַבְדִּיל": {
+      "file": "words/word-091.mp3",
+      "first_seen_verse": 14
+    },
+    "הַיּוֹם": {
+      "file": "words/word-092.mp3",
+      "first_seen_verse": 14
+    },
+    "הַלָּיְלָה": {
+      "file": "words/word-093.mp3",
+      "first_seen_verse": 14
+    },
+    "וְהָיוּ": {
+      "file": "words/word-094.mp3",
+      "first_seen_verse": 14
+    },
+    "לְאֹתֹת": {
+      "file": "words/word-095.mp3",
+      "first_seen_verse": 14
+    },
+    "וּלְמוֹעֲדִים": {
+      "file": "words/word-096.mp3",
+      "first_seen_verse": 14
+    },
+    "וּלְיָמִים": {
+      "file": "words/word-097.mp3",
+      "first_seen_verse": 14
+    },
+    "וְשָׁנִֽים": {
+      "file": "words/word-098.mp3",
+      "first_seen_verse": 14
+    },
+    "לִמְאוֹרֹת": {
+      "file": "words/word-099.mp3",
+      "first_seen_verse": 15
+    },
+    "לְהָאִיר": {
+      "file": "words/word-100.mp3",
+      "first_seen_verse": 15
+    },
+    "שְׁנֵי": {
+      "file": "words/word-101.mp3",
+      "first_seen_verse": 16
+    },
+    "הַמְּאֹרֹת": {
+      "file": "words/word-102.mp3",
+      "first_seen_verse": 16
+    },
+    "הַגְּדֹלִים": {
+      "file": "words/word-103.mp3",
+      "first_seen_verse": 16
+    },
+    "הַמָּאוֹר": {
+      "file": "words/word-104.mp3",
+      "first_seen_verse": 16
+    },
+    "הַגָּדֹל": {
+      "file": "words/word-105.mp3",
+      "first_seen_verse": 16
+    },
+    "לְמֶמְשֶׁלֶת": {
+      "file": "words/word-106.mp3",
+      "first_seen_verse": 16
+    },
+    "וְאֶת": {
+      "file": "words/word-107.mp3",
+      "first_seen_verse": 16
+    },
+    "הַקָּטֹן": {
+      "file": "words/word-108.mp3",
+      "first_seen_verse": 16
+    },
+    "הַלַּיְלָה": {
+      "file": "words/word-109.mp3",
+      "first_seen_verse": 16
+    },
+    "הַכּוֹכָבִֽים": {
+      "file": "words/word-110.mp3",
+      "first_seen_verse": 16
+    },
+    "וַיִּתֵּן": {
+      "file": "words/word-111.mp3",
+      "first_seen_verse": 17
+    },
+    "אֹתָם": {
+      "file": "words/word-112.mp3",
+      "first_seen_verse": 17
+    },
+    "הַשָּׁמָיִם": {
+      "file": "words/word-113.mp3",
+      "first_seen_verse": 17
+    },
+    "וְלִמְשֹׁל": {
+      "file": "words/word-114.mp3",
+      "first_seen_verse": 18
+    },
+    "בַּיּוֹם": {
+      "file": "words/word-115.mp3",
+      "first_seen_verse": 18
+    },
+    "וּבַלַּיְלָה": {
+      "file": "words/word-116.mp3",
+      "first_seen_verse": 18
+    },
+    "וּֽלְהַבְדִּיל": {
+      "file": "words/word-117.mp3",
+      "first_seen_verse": 18
+    },
+    "הַחֹשֶׁךְ": {
+      "file": "words/word-118.mp3",
+      "first_seen_verse": 18
+    },
+    "רְבִיעִֽי": {
+      "file": "words/word-119.mp3",
+      "first_seen_verse": 19
+    },
+    "יִשְׁרְצוּ": {
+      "file": "words/word-120.mp3",
+      "first_seen_verse": 20
+    },
+    "שֶׁרֶץ": {
+      "file": "words/word-121.mp3",
+      "first_seen_verse": 20
+    },
+    "נֶפֶשׁ": {
+      "file": "words/word-122.mp3",
+      "first_seen_verse": 20
+    },
+    "חַיָּה": {
+      "file": "words/word-123.mp3",
+      "first_seen_verse": 20
+    },
+    "וְעוֹף": {
+      "file": "words/word-124.mp3",
+      "first_seen_verse": 20
+    },
+    "יְעוֹפֵף": {
+      "file": "words/word-125.mp3",
+      "first_seen_verse": 20
+    },
+    "רְקִיעַ": {
+      "file": "words/word-126.mp3",
+      "first_seen_verse": 20
+    },
+    "הַשָּׁמָֽיִם": {
+      "file": "words/word-127.mp3",
+      "first_seen_verse": 20
+    },
+    "וַיִּבְרָא": {
+      "file": "words/word-128.mp3",
+      "first_seen_verse": 21
+    },
+    "הַתַּנִּינִם": {
+      "file": "words/word-129.mp3",
+      "first_seen_verse": 21
+    },
+    "כׇּל": {
+      "file": "words/word-130.mp3",
+      "first_seen_verse": 21
+    },
+    "הַֽחַיָּה": {
+      "file": "words/word-131.mp3",
+      "first_seen_verse": 21
+    },
+    "הָֽרֹמֶשֶׂת": {
+      "file": "words/word-132.mp3",
+      "first_seen_verse": 21
+    },
+    "שָׁרְצוּ": {
+      "file": "words/word-133.mp3",
+      "first_seen_verse": 21
+    },
+    "לְמִֽינֵהֶם": {
+      "file": "words/word-134.mp3",
+      "first_seen_verse": 21
+    },
+    "עוֹף": {
+      "file": "words/word-135.mp3",
+      "first_seen_verse": 21
+    },
+    "כָּנָף": {
+      "file": "words/word-136.mp3",
+      "first_seen_verse": 21
+    },
+    "וַיְבָרֶךְ": {
+      "file": "words/word-137.mp3",
+      "first_seen_verse": 22
+    },
+    "לֵאמֹר": {
+      "file": "words/word-138.mp3",
+      "first_seen_verse": 22
+    },
+    "פְּרוּ": {
+      "file": "words/word-139.mp3",
+      "first_seen_verse": 22
+    },
+    "וּרְבוּ": {
+      "file": "words/word-140.mp3",
+      "first_seen_verse": 22
+    },
+    "וּמִלְאוּ": {
+      "file": "words/word-141.mp3",
+      "first_seen_verse": 22
+    },
+    "בַּיַּמִּים": {
+      "file": "words/word-142.mp3",
+      "first_seen_verse": 22
+    },
+    "וְהָעוֹף": {
+      "file": "words/word-143.mp3",
+      "first_seen_verse": 22
+    },
+    "יִרֶב": {
+      "file": "words/word-144.mp3",
+      "first_seen_verse": 22
+    },
+    "בָּאָֽרֶץ": {
+      "file": "words/word-145.mp3",
+      "first_seen_verse": 22
+    },
+    "חֲמִישִֽׁי": {
+      "file": "words/word-146.mp3",
+      "first_seen_verse": 23
+    },
+    "תּוֹצֵא": {
+      "file": "words/word-147.mp3",
+      "first_seen_verse": 24
+    },
+    "לְמִינָהּ": {
+      "file": "words/word-148.mp3",
+      "first_seen_verse": 24
+    },
+    "בְּהֵמָה": {
+      "file": "words/word-149.mp3",
+      "first_seen_verse": 24
+    },
+    "וָרֶמֶשׂ": {
+      "file": "words/word-150.mp3",
+      "first_seen_verse": 24
+    },
+    "וְחַֽיְתוֹ": {
+      "file": "words/word-151.mp3",
+      "first_seen_verse": 24
+    },
+    "חַיַּת": {
+      "file": "words/word-152.mp3",
+      "first_seen_verse": 25
+    },
+    "הַבְּהֵמָה": {
+      "file": "words/word-153.mp3",
+      "first_seen_verse": 25
+    },
+    "רֶמֶשׂ": {
+      "file": "words/word-154.mp3",
+      "first_seen_verse": 25
+    },
+    "הָֽאֲדָמָה": {
+      "file": "words/word-155.mp3",
+      "first_seen_verse": 25
+    },
+    "נַֽעֲשֶׂה": {
+      "file": "words/word-156.mp3",
+      "first_seen_verse": 26
+    },
+    "אָדָם": {
+      "file": "words/word-157.mp3",
+      "first_seen_verse": 26
+    },
+    "בְּצַלְמֵנוּ": {
+      "file": "words/word-158.mp3",
+      "first_seen_verse": 26
+    },
+    "כִּדְמוּתֵנוּ": {
+      "file": "words/word-159.mp3",
+      "first_seen_verse": 26
+    },
+    "וְיִרְדּוּ": {
+      "file": "words/word-160.mp3",
+      "first_seen_verse": 26
+    },
+    "בִדְגַת": {
+      "file": "words/word-161.mp3",
+      "first_seen_verse": 26
+    },
+    "הַיָּם": {
+      "file": "words/word-162.mp3",
+      "first_seen_verse": 26
+    },
+    "וּבְעוֹף": {
+      "file": "words/word-163.mp3",
+      "first_seen_verse": 26
+    },
+    "וּבַבְּהֵמָה": {
+      "file": "words/word-164.mp3",
+      "first_seen_verse": 26
+    },
+    "וּבְכׇל": {
+      "file": "words/word-165.mp3",
+      "first_seen_verse": 26
+    },
+    "הָרֶמֶשׂ": {
+      "file": "words/word-166.mp3",
+      "first_seen_verse": 26
+    },
+    "הָֽרֹמֵשׂ": {
+      "file": "words/word-167.mp3",
+      "first_seen_verse": 26
+    },
+    "הָֽאָדָם": {
+      "file": "words/word-168.mp3",
+      "first_seen_verse": 27
+    },
+    "בְּצַלְמוֹ": {
+      "file": "words/word-169.mp3",
+      "first_seen_verse": 27
+    },
+    "בְּצֶלֶם": {
+      "file": "words/word-170.mp3",
+      "first_seen_verse": 27
+    },
+    "אֹתוֹ": {
+      "file": "words/word-171.mp3",
+      "first_seen_verse": 27
+    },
+    "זָכָר": {
+      "file": "words/word-172.mp3",
+      "first_seen_verse": 27
+    },
+    "וּנְקֵבָה": {
+      "file": "words/word-173.mp3",
+      "first_seen_verse": 27
+    },
+    "אֹתָֽם": {
+      "file": "words/word-174.mp3",
+      "first_seen_verse": 27
+    },
+    "לָהֶם": {
+      "file": "words/word-175.mp3",
+      "first_seen_verse": 28
+    },
+    "וְכִבְשֻׁהָ": {
+      "file": "words/word-176.mp3",
+      "first_seen_verse": 28
+    },
+    "וּרְדוּ": {
+      "file": "words/word-177.mp3",
+      "first_seen_verse": 28
+    },
+    "בִּדְגַת": {
+      "file": "words/word-178.mp3",
+      "first_seen_verse": 28
+    },
+    "הִנֵּה": {
+      "file": "words/word-179.mp3",
+      "first_seen_verse": 29
+    },
+    "נָתַתִּי": {
+      "file": "words/word-180.mp3",
+      "first_seen_verse": 29
+    },
+    "לָכֶם": {
+      "file": "words/word-181.mp3",
+      "first_seen_verse": 29
+    },
+    "זֹרֵעַ": {
+      "file": "words/word-182.mp3",
+      "first_seen_verse": 29
+    },
+    "כׇל": {
+      "file": "words/word-183.mp3",
+      "first_seen_verse": 29
+    },
+    "הָעֵץ": {
+      "file": "words/word-184.mp3",
+      "first_seen_verse": 29
+    },
+    "בּוֹ": {
+      "file": "words/word-185.mp3",
+      "first_seen_verse": 29
+    },
+    "פְרִי": {
+      "file": "words/word-186.mp3",
+      "first_seen_verse": 29
+    },
+    "זָרַע": {
+      "file": "words/word-187.mp3",
+      "first_seen_verse": 29
+    },
+    "יִֽהְיֶה": {
+      "file": "words/word-188.mp3",
+      "first_seen_verse": 29
+    },
+    "לְאׇכְלָֽה": {
+      "file": "words/word-189.mp3",
+      "first_seen_verse": 29
+    },
+    "וּֽלְכׇל": {
+      "file": "words/word-190.mp3",
+      "first_seen_verse": 30
+    },
+    "וּלְכׇל": {
+      "file": "words/word-191.mp3",
+      "first_seen_verse": 30
+    },
+    "וּלְכֹל": {
+      "file": "words/word-192.mp3",
+      "first_seen_verse": 30
+    },
+    "רוֹמֵשׂ": {
+      "file": "words/word-193.mp3",
+      "first_seen_verse": 30
+    },
+    "יֶרֶק": {
+      "file": "words/word-194.mp3",
+      "first_seen_verse": 30
+    },
+    "לְאׇכְלָה": {
+      "file": "words/word-195.mp3",
+      "first_seen_verse": 30
+    },
+    "עָשָׂה": {
+      "file": "words/word-196.mp3",
+      "first_seen_verse": 31
+    },
+    "וְהִנֵּה": {
+      "file": "words/word-197.mp3",
+      "first_seen_verse": 31
+    },
+    "מְאֹד": {
+      "file": "words/word-198.mp3",
+      "first_seen_verse": 31
+    },
+    "הַשִּׁשִּֽׁי": {
+      "file": "words/word-199.mp3",
+      "first_seen_verse": 31
+    }
+  }
+}
