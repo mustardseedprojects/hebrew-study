@@ -56,11 +56,9 @@ const reading=[{"h": "ַ", "q": "What is this vowel mark called, and what sound 
 const verses={"1": [{"h": "בְּרֵאשִׁית בָּרָא אֱלֹהִים", "t": "bereshit bara Elohim", "m": "in the beginning God created", "final": false}, {"h": "אֵת הַשָּׁמַיִם", "t": "et hashamayim", "m": "the heavens", "final": false}, {"h": "וְאֵת הָאָרֶץ", "t": "ve'et ha'aretz", "m": "and the earth", "final": false}, {"h": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ", "t": "bereshit bara Elohim et hashamayim ve'et ha'aretz", "m": "In the beginning God created the heavens and the earth.", "final": true}], "2": [{"h": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ", "t": "ve-ha'aretz hayetah tohu vavohu", "m": "and the earth was formless and empty", "final": false}, {"h": "וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם", "t": "ve-choshekh al-penei tehom", "m": "and darkness was over the face of the deep", "final": false}, {"h": "וְרוּחַ אֱלֹהִים מְרַחֶפֶת", "t": "ve-ruach Elohim merachefet", "m": "and the Spirit of God was hovering", "final": false}, {"h": "עַל־פְּנֵי הַמָּיִם", "t": "al-penei ha-mayim", "m": "over the face of the waters", "final": false}, {"h": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם", "t": "ve-ha'aretz hayetah tohu vavohu, ve-choshekh al-penei tehom, ve-ruach Elohim merachefet al-penei ha-mayim", "m": "Genesis 1:2", "final": true}], "3": [{"h": "וַיֹּאמֶר אֱלֹהִים", "t": "vayomer Elohim", "m": "and God said", "final": false}, {"h": "יְהִי אוֹר", "t": "yehi or", "m": "let there be light", "final": false}, {"h": "וַיְהִי־אוֹר", "t": "vayehi or", "m": "and there was light", "final": false}, {"h": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר", "t": "vayomer Elohim, yehi or, vayehi or", "m": "And God said, “Let there be light,” and there was light.", "final": true}], "4": [{"h": "וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב", "t": "vayar Elohim et ha'or ki tov", "m": "and God saw that the light was good", "final": false}, {"h": "וַיַּבְדֵּל אֱלֹהִים", "t": "vayavdel Elohim", "m": "and God separated", "final": false}, {"h": "בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ", "t": "bein ha'or uvein ha-choshekh", "m": "between the light and the darkness", "final": false}, {"h": "וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ", "t": "vayar Elohim et ha'or ki tov; vayavdel Elohim bein ha'or uvein ha-choshekh", "m": "Genesis 1:4", "final": true}], "5": [{"h": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם", "t": "vayiqra Elohim la'or yom", "m": "and God called the light Day", "final": false}, {"h": "וְלַחֹשֶׁךְ קָרָא לָיְלָה", "t": "ve-la-choshekh qara laylah", "m": "and the darkness he called Night", "final": false}, {"h": "וַיְהִי־עֶרֶב", "t": "vayehi erev", "m": "and there was evening", "final": false}, {"h": "וַיְהִי־בֹקֶר", "t": "vayehi boker", "m": "and there was morning", "final": false}, {"h": "יוֹם אֶחָד", "t": "yom echad", "m": "one day / day one", "final": false}, {"h": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם אֶחָד", "t": "vayiqra Elohim la'or yom, ve-la-choshekh qara laylah; vayehi erev, vayehi boker, yom echad", "m": "Genesis 1:5", "final": true}]};
 let mode="vocab",verse="all",cards=[],idx=0,flipped=false,slowToken=0;
 const known=new Set(),repeat=new Set(),$=id=>document.getElementById(id);
-function stopSpeech(){slowToken++;if("speechSynthesis"in window)speechSynthesis.cancel()}
 function build(){stopSpeech();if(mode==="reading")cards=reading.map((x,i)=>({...x,id:"r"+i,type:"reading"}));else if(mode==="verse"){const ns=verse==="all"?[1,2,3,4,5]:[+verse];cards=ns.flatMap(n=>verses[n].map((x,i)=>({...x,v:n,id:`s${n}-${i}`,type:"verse"})))}else cards=vocab.filter(x=>verse==="all"||x.v===+verse).map((x,i)=>({...x,id:`v${x.v}-${i}`,type:"vocab"}));idx=0;flipped=false;render()}
 function render(){const c=cards[idx];if(!c)return;$("tag").textContent=c.type==="reading"?"Niqqud & Marks":`Genesis 1:${c.v}${c.final?" · Whole verse":""}`;$("progress").textContent=`${idx+1} of ${cards.length}`;$("question").textContent=c.h;$("prompt").textContent=c.q||(c.type==="verse"?(c.final?"Final card: try the entire verse.":"Read this phrase aloud."):"Say it aloud. What does it mean?");$("answerHebrew").textContent=c.h;$("translit").textContent=c.t;$("meaning").textContent=c.m;$("front").classList.toggle("hide",flipped);$("answer").classList.toggle("show",flipped);$("grade").classList.toggle("show",flipped);$("flip").textContent=flipped?"Show front":"Flip card";$("known").textContent=known.size;$("repeat").textContent=repeat.size}
 function move(d){stopSpeech();idx=(idx+d+cards.length)%cards.length;flipped=false;render()}
-let audioManifest=null,currentAudio=null;
 let audioManifest=null,normalManifest=null,niqqudManifest=null,currentAudio=null;
 Promise.all([
   fetch("audio/audio-manifest.json").then(r=>r.json()),
@@ -148,6 +146,23 @@ function slow(){
     return;
   }
   playWords(c.h,1400);
-}$("know").addEventListener("click",()=>{known.add(cards[idx].id);repeat.delete(cards[idx].id);move(1)});$("again").addEventListener("click",()=>{repeat.add(cards[idx].id);known.delete(cards[idx].id);move(1)});
-$("shuffle").addEventListener("click",()=>{stopSpeech();for(let i=cards.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[cards[i],cards[j]]=[cards[j],cards[i]]}idx=0;flipped=false;render()});$("restart").addEventListener("click",()=>{known.clear();repeat.clear();build()});build();
+}$("know").addEventListener("click",()=>{known.add(cards[idx].id);repeat.delete(cards[idx].id);move(1)});
+$("again").addEventListener("click",()=>{repeat.add(cards[idx].id);known.delete(cards[idx].id);move(1)});
+$("flip").addEventListener("click",()=>{flipped=!flipped;render()});
+$("slow").addEventListener("click",slow);
+$("normal").addEventListener("click",normal);
+$("prev").addEventListener("click",()=>move(-1));
+$("next").addEventListener("click",()=>move(1));
+$("shuffle").addEventListener("click",()=>{stopSpeech();for(let i=cards.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[cards[i],cards[j]]=[cards[j],cards[i]]}idx=0;flipped=false;render()});
+$("restart").addEventListener("click",()=>{known.clear();repeat.clear();build()});
+$("verse").addEventListener("change",e=>{verse=e.target.value;build()});
+document.querySelectorAll(".tab").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");
+  mode=btn.dataset.mode;
+  document.querySelector(".study").classList.toggle("hide",mode==="pdf");
+  document.querySelector(".pdfs").classList.toggle("show",mode==="pdf");
+  if(mode!=="pdf")build();
+}));
+build();
 </script></body></html>
