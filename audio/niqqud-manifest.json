@@ -1,0 +1,103 @@
+{
+  "voice": "he-IL-HilaNeural",
+  "rate": "-35%",
+  "purpose": "Sound examples for the 16 Niqqud & Marks cards",
+  "cards": {
+    "01-patach": {
+      "name": "Patach",
+      "sound": "ah",
+      "spoken_hebrew": "אַ",
+      "file": "niqqud/01-patach.mp3"
+    },
+    "02-qamatz": {
+      "name": "Qamatz",
+      "sound": "ah",
+      "spoken_hebrew": "אָ",
+      "file": "niqqud/02-qamatz.mp3"
+    },
+    "03-segol": {
+      "name": "Segol",
+      "sound": "eh",
+      "spoken_hebrew": "אֶ",
+      "file": "niqqud/03-segol.mp3"
+    },
+    "04-tsere": {
+      "name": "Tsere",
+      "sound": "e/ay",
+      "spoken_hebrew": "אֵ",
+      "file": "niqqud/04-tsere.mp3"
+    },
+    "05-hiriq": {
+      "name": "Hiriq",
+      "sound": "ee",
+      "spoken_hebrew": "אִי",
+      "file": "niqqud/05-hiriq.mp3"
+    },
+    "06-holam": {
+      "name": "Holam",
+      "sound": "oh",
+      "spoken_hebrew": "אוֹ",
+      "file": "niqqud/06-holam.mp3"
+    },
+    "07-qibbuts": {
+      "name": "Qibbuts",
+      "sound": "oo",
+      "spoken_hebrew": "אֻ",
+      "file": "niqqud/07-qibbuts.mp3"
+    },
+    "08-sheva": {
+      "name": "Sheva",
+      "sound": "very short / context-dependent",
+      "spoken_hebrew": "בְּ",
+      "file": "niqqud/08-sheva.mp3"
+    },
+    "09-hatef-segol": {
+      "name": "Hatef segol",
+      "sound": "very short eh",
+      "spoken_hebrew": "אֱ",
+      "file": "niqqud/09-hatef-segol.mp3"
+    },
+    "10-dagesh": {
+      "name": "Dagesh",
+      "sound": "example with a strengthened/hard bet",
+      "spoken_hebrew": "בּ",
+      "file": "niqqud/10-dagesh.mp3"
+    },
+    "11-bet": {
+      "name": "Bet with dagesh",
+      "sound": "B",
+      "spoken_hebrew": "בּ",
+      "file": "niqqud/11-bet.mp3"
+    },
+    "12-vet": {
+      "name": "Vet / soft bet",
+      "sound": "V",
+      "spoken_hebrew": "ב",
+      "file": "niqqud/12-vet.mp3"
+    },
+    "13-peh": {
+      "name": "Peh with dagesh",
+      "sound": "P",
+      "spoken_hebrew": "פּ",
+      "file": "niqqud/13-peh.mp3"
+    },
+    "14-feh": {
+      "name": "Feh / soft peh",
+      "sound": "F",
+      "spoken_hebrew": "פ",
+      "file": "niqqud/14-feh.mp3"
+    },
+    "15-shin": {
+      "name": "Shin",
+      "sound": "SH",
+      "spoken_hebrew": "שׁ",
+      "file": "niqqud/15-shin.mp3"
+    },
+    "16-sin": {
+      "name": "Sin",
+      "sound": "S",
+      "spoken_hebrew": "שׂ",
+      "file": "niqqud/16-sin.mp3"
+    }
+  }
+}
