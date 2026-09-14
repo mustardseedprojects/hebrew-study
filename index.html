@@ -19,7 +19,7 @@ button.active,.primary{background:var(--green);color:white;border-color:var(--gr
 .answer{display:none}.answer.show{display:block}.front.hide{display:none}.translit{font-size:1.45rem;font-weight:700;margin-top:14px}.meaning{font-size:1.1rem;color:var(--muted);margin-top:8px}
 .actions,.grade,.nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:14px}.grade{display:none}.grade.show{display:flex}
 .status{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.9rem;margin-top:12px;align-items:center}.pdfs{display:none}.pdfs.show{display:block}.study.hide{display:none}
-.pdfbox{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}.pdfbox h2{margin-top:0}.pdf-list{display:grid;gap:9px}.pdf-placeholder{border:1px dashed var(--line);border-radius:12px;padding:14px;color:var(--muted)}
+.pdfbox{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}.pdfbox h2{margin-top:0}.pdf-list{display:grid;gap:9px}.pdf-placeholder{border:1px dashed var(--line);border-radius:12px;padding:14px;color:var(--muted)}.pdf-link{display:block;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:14px;background:white;color:var(--ink);font-weight:700}.pdf-link:hover{border-color:var(--green)}
 .small{font-size:.82rem;color:var(--muted);margin-top:12px}
 @media(min-width:700px){.tabs{grid-template-columns:repeat(4,1fr)}.hebrew{font-size:4rem}}
 </style>
@@ -45,8 +45,8 @@ button.active,.primary{background:var(--green);color:white;border-color:var(--gr
 </section>
 <section class="pdfs">
 <div class="pdfbox"><h2>Worksheets &amp; PDFs</h2><p>Your Hebrew worksheets will live here beside the study decks.</p>
-<div class="pdf-list"><div class="pdf-placeholder">Genesis 1:1 worksheet — ready to add</div><div class="pdf-placeholder">Genesis 1:2 worksheet — ready to add</div><div class="pdf-placeholder">Genesis 1:3 worksheet — ready to add</div><div class="pdf-placeholder">Genesis 1:4 worksheet — ready to add</div><div class="pdf-placeholder">Genesis 1:5 worksheet — ready to add</div></div>
-<p class="small">These are placeholders for now. Once the PDFs are uploaded to the website, these become buttons that open the actual worksheets.</p></div>
+<div class="pdf-list"><a class="pdf-link" href="Genesis_1_1_Worksheet.pdf" target="_blank">Open Genesis 1:1 Worksheet</a><a class="pdf-link" href="Genesis_1_2_Worksheet.pdf" target="_blank">Open Genesis 1:2 Worksheet</a><a class="pdf-link" href="Genesis_1_3_Worksheet.pdf" target="_blank">Open Genesis 1:3 Worksheet</a><a class="pdf-link" href="Genesis_1_4_Worksheet.pdf" target="_blank">Open Genesis 1:4 Worksheet</a><a class="pdf-link" href="Genesis_1_5_Worksheet.pdf" target="_blank">Open Genesis 1:5 Worksheet</a></div>
+<p class="small">Open any worksheet here while you study. Each PDF opens in a new tab so your place in the study deck stays put.</p></div>
 </section>
 </main>
 <script>
