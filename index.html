@@ -41,7 +41,7 @@ button.active,.primary{background:var(--green);color:white;border-color:var(--gr
 <div><div class="actions"><button id="slow">🔊 Slow Practice</button><button id="normal">🔊 Normal</button><button id="flip" class="primary">Flip card</button></div><div id="grade" class="grade"><button id="again">Practice again</button><button id="know" class="primary">I knew it ✓</button></div></div>
 </div>
 <div class="status"><span><b id="known">0</b> known · <b id="repeat">0</b> to repeat</span><span><button id="prev">← Previous</button> <button id="next">Next →</button></span></div>
-<p class="small">Audio uses the Hebrew voice available on this device. Slow Practice reads one word at a time with pauses. We can replace this later with consistent recorded Biblical-Hebrew audio.</p>
+<p class="small">Audio uses consistent recorded Hebrew practice audio. Slow Practice reads one word at a time with pauses; Normal uses a smoother practice pace.</p>
 </section>
 <section class="pdfs">
 <div class="pdfbox"><h2>Worksheets &amp; PDFs</h2><p>Your Hebrew worksheets will live here beside the study decks.</p>
@@ -131,7 +131,7 @@ function normal(){
     playNiqqud();
     return;
   }
-  if(c.type==="verse"&&normalManifest&&normalManifest.verses[String(c.v)]){
+  if(c.type==="verse"&&c.final&&normalManifest&&normalManifest.verses[String(c.v)]){
     playFile("audio/"+normalManifest.verses[String(c.v)].file);
     return;
   }
@@ -160,6 +160,7 @@ document.querySelectorAll(".tab").forEach(btn=>btn.addEventListener("click",()=>
   document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
   mode=btn.dataset.mode;
+  $("verse").disabled=mode==="reading";
   document.querySelector(".study").classList.toggle("hide",mode==="pdf");
   document.querySelector(".pdfs").classList.toggle("show",mode==="pdf");
   if(mode!=="pdf")build();
