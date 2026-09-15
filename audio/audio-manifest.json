@@ -171,7 +171,7 @@
       "first_seen_verse": 2
     },
     "וָבֹהוּ": {
-      "file": "words/word-011.mp3",
+      "file": "repairs/vavohu.mp3",
       "first_seen_verse": 2
     },
     "וְחֹשֶׁךְ": {
@@ -925,6 +925,18 @@
     "הַשִּׁשִּֽׁי": {
       "file": "words/word-199.mp3",
       "first_seen_verse": 31
+    },
+    "וְ": {
+      "file": "repairs/ve.mp3",
+      "first_seen_verse": 2
+    },
+    "חֹשֶׁךְ": {
+      "file": "repairs/choshekh.mp3",
+      "first_seen_verse": 2
+    },
+    "רוּחַ": {
+      "file": "repairs/ruach.mp3",
+      "first_seen_verse": 2
     }
   }
 }
