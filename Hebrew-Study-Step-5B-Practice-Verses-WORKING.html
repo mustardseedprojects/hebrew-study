@@ -113,6 +113,18 @@ function build(){stopSpeech();if(mode==="reading")cards=reading.map((x,i)=>({...
 function render(){const c=cards[idx];if(!c)return;$("tag").textContent=c.type==="reading"?"Niqqud & Marks":`Genesis 1:${c.v}${c.final?" · Whole verse":""}`;$("progress").textContent=`${idx+1} of ${cards.length}`;$("question").textContent=c.h;$("prompt").textContent=c.q||(c.type==="verse"?(c.final?"Final card: try the entire verse.":"Read this phrase aloud."):"Say it aloud. What does it mean?");$("answerHebrew").textContent=c.h;$("translit").textContent=c.t;$("meaning").textContent=c.m;$("front").classList.toggle("hide",flipped);$("answer").classList.toggle("show",flipped);$("grade").classList.toggle("show",flipped);$("flip").textContent=flipped?"Show front":"Flip card";$("known").textContent=known.size;$("repeat").textContent=repeat.size}
 function move(d){stopSpeech();idx=(idx+d+cards.length)%cards.length;flipped=false;render()}
 let audioManifest=null,normalManifest=null,niqqudManifest=null,phraseManifest=null,currentAudio=null;
+
+// MOBILE AUDIO TEST:
+// Keep ONE HTMLAudioElement alive and reuse it. iPhone Safari is much happier
+// continuing playback on an already user-started media element than creating
+// a brand-new Audio() object for every word.
+const mobileAudio=document.createElement("audio");
+mobileAudio.preload="auto";
+mobileAudio.playsInline=true;
+mobileAudio.setAttribute("playsinline","");
+mobileAudio.setAttribute("webkit-playsinline","");
+document.body.appendChild(mobileAudio);
+
 Promise.all([
   fetch("audio/audio-manifest.json").then(r=>r.json()),
   fetch("audio/normal-manifest.json").then(r=>r.json()),
@@ -123,7 +135,9 @@ Promise.all([
   normalManifest=normal;
   niqqudManifest=niqqud;
   phraseManifest=phrases;
-}).catch(()=>{});
+}).catch(err=>{
+  console.error("Audio manifests failed to load:",err);
+});
 
 function cleanHebrew(s){
   return s.normalize("NFD")
@@ -134,24 +148,39 @@ function cleanHebrew(s){
     .trim();
 }
 
+function audioError(err,src){
+  console.error("Audio playback failed:",src,err);
+  alert("The audio file could not play on this phone.\n\n"+src+"\n\n"+(err&&err.message?err.message:"Unknown audio error"));
+}
+
 function stopSpeech(){
   slowToken++;
-  if(currentAudio){
-    currentAudio.pause();
-    currentAudio.currentTime=0;
-    currentAudio=null;
-  }
+  mobileAudio.pause();
+  mobileAudio.onended=null;
+  mobileAudio.onerror=null;
+  try{mobileAudio.currentTime=0}catch(e){}
+  currentAudio=null;
+}
+
+function startMobileAudio(src,token,onend){
+  currentAudio=mobileAudio;
+  mobileAudio.pause();
+  mobileAudio.onended=null;
+  mobileAudio.onerror=null;
+  mobileAudio.src=src;
+  mobileAudio.load();
+  mobileAudio.onended=()=>{
+    if(token===slowToken&&onend)onend();
+  };
+  mobileAudio.onerror=()=>audioError(mobileAudio.error,src);
+  const p=mobileAudio.play();
+  if(p&&typeof p.catch==="function")p.catch(err=>audioError(err,src));
 }
 
 function playFile(src,onend){
   stopSpeech();
   const token=slowToken;
-  currentAudio=new Audio(src);
-  currentAudio.onended=()=>{
-    currentAudio=null;
-    if(token===slowToken&&onend)onend();
-  };
-  currentAudio.play().catch(()=>{});
+  startMobileAudio(src,token,onend);
 }
 
 function wordFiles(text){
@@ -164,15 +193,17 @@ function wordFiles(text){
 function playWords(text,pause){
   stopSpeech();
   const token=slowToken,files=wordFiles(text);
+  if(!files.length){
+    alert("The audio list is not ready yet. Wait a moment and tap the button again.");
+    return;
+  }
   let i=0;
   function next(){
     if(token!==slowToken||i>=files.length)return;
-    currentAudio=new Audio("audio/"+files[i++]);
-    currentAudio.onended=()=>{
-      currentAudio=null;
+    const src="audio/"+files[i++];
+    startMobileAudio(src,token,()=>{
       if(token===slowToken)setTimeout(next,pause);
-    };
-    currentAudio.play().catch(()=>{});
+    });
   }
   next();
 }
