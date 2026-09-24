@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Use | Hebrew Study</title>
+<style>
+:root{
+  --cream:#f6f0df;
+  --paper:#fffaf0;
+  --ink:#2f2b24;
+  --olive:#59603d;
+  --olive-dark:#3f472d;
+  --gold:#a7894e;
+  --line:#cfc3a3;
+  --soft:#ece5d1;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 15% 5%,rgba(167,137,78,.10),transparent 28%),
+    linear-gradient(#f8f3e7,#f1ead8);
+  font-family:Georgia,"Times New Roman",serif;
+}
+header{
+  background:#f8f2e3;
+  border-bottom:1px solid var(--line);
+  text-align:center;
+  padding:28px 18px 0;
+}
+.brand{
+  color:var(--olive-dark);
+  font-size:clamp(28px,4vw,46px);
+  letter-spacing:.08em;
+  font-weight:700;
+}
+.tagline{
+  margin:8px 0 22px;
+  color:#786a49;
+  letter-spacing:.13em;
+  font-size:13px;
+  text-transform:uppercase;
+}
+nav{
+  border-top:1px solid var(--line);
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+nav a{
+  color:var(--olive-dark);
+  text-decoration:none;
+  padding:14px 16px;
+  font-size:15px;
+}
+nav a:hover,nav a.active{
+  background:rgba(89,96,61,.09);
+}
+main{
+  max-width:1000px;
+  margin:0 auto;
+  padding:58px 24px 80px;
+}
+.hero{
+  text-align:center;
+  max-width:790px;
+  margin:0 auto 46px;
+}
+.eyebrow{
+  color:var(--gold);
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  font-size:12px;
+  font-weight:700;
+}
+h1{
+  color:var(--olive-dark);
+  font-size:clamp(38px,6vw,62px);
+  margin:10px 0 16px;
+  font-weight:normal;
+}
+.intro{
+  font-size:20px;
+  line-height:1.65;
+  margin:0 auto;
+}
+.rule{
+  width:90px;
+  border:0;
+  border-top:2px solid var(--gold);
+  margin:28px auto 0;
+}
+.section{
+  background:rgba(255,250,240,.82);
+  border:1px solid var(--line);
+  border-radius:5px;
+  padding:30px 34px;
+  margin:22px 0;
+  box-shadow:0 8px 24px rgba(65,53,30,.05);
+}
+.section h2{
+  margin:0 0 15px;
+  color:var(--olive-dark);
+  font-size:29px;
+  font-weight:normal;
+}
+.section h2 .num{
+  color:var(--gold);
+  font-size:18px;
+  margin-right:8px;
+}
+.section p{
+  font-size:18px;
+  line-height:1.72;
+  margin:12px 0;
+}
+.section strong{color:var(--olive-dark)}
+.niqqud-note{
+  margin:22px 0 8px;
+  padding:18px 20px;
+  background:var(--soft);
+  border-left:4px solid var(--gold);
+}
+.niqqud-note h3{
+  margin:0 0 8px;
+  color:var(--olive-dark);
+  font-size:20px;
+}
+.niqqud-note p{margin:0;font-size:17px}
+.steps{
+  margin:20px 0 8px;
+  padding:0;
+  list-style:none;
+  counter-reset:tools;
+}
+.steps li{
+  counter-increment:tools;
+  margin:15px 0;
+  padding-left:42px;
+  position:relative;
+  font-size:18px;
+  line-height:1.65;
+}
+.steps li:before{
+  content:counter(tools);
+  position:absolute;
+  left:0;top:1px;
+  width:27px;height:27px;
+  border:1px solid var(--gold);
+  border-radius:50%;
+  color:var(--olive-dark);
+  text-align:center;
+  line-height:26px;
+  font-weight:700;
+}
+.anchor{
+  margin:42px auto 0;
+  text-align:center;
+  color:var(--olive-dark);
+  font-size:22px;
+  line-height:1.55;
+  font-weight:700;
+}
+.closing{
+  max-width:800px;
+  margin:44px auto 0;
+  text-align:center;
+  font-size:20px;
+  line-height:1.7;
+}
+footer{
+  border-top:1px solid var(--line);
+  text-align:center;
+  padding:28px 18px 36px;
+  color:#71664e;
+  background:#f7f1e2;
+}
+footer strong{
+  display:block;
+  color:var(--olive-dark);
+  letter-spacing:.12em;
+  font-size:13px;
+  margin-bottom:7px;
+}
+
+/* Collapsible guide sections */
+.section{
+  padding:0;
+  overflow:hidden;
+}
+.section summary{
+  list-style:none;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:19px 34px;
+  color:var(--olive-dark);
+  font-size:25px;
+  user-select:none;
+}
+.section summary::-webkit-details-marker{display:none}
+.section summary .num{
+  color:var(--gold);
+  font-size:17px;
+  margin-right:2px;
+}
+.section summary .hint{
+  margin-left:auto;
+  color:#877653;
+  font-size:14px;
+  font-family:Arial,sans-serif;
+  letter-spacing:.02em;
+}
+.section summary:after{
+  content:"＋";
+  color:var(--gold);
+  font-family:Arial,sans-serif;
+  font-size:23px;
+  margin-left:8px;
+}
+.section[open] summary{
+  border-bottom:1px solid var(--line);
+  background:rgba(89,96,61,.045);
+}
+.section[open] summary:after{content:"−"}
+.section-body{padding:16px 34px 30px}
+.section-body > :first-child{margin-top:0}
+.section-body > :last-child{margin-bottom:0}
+
+.sound-out{
+  margin:24px 0;
+  padding:24px 26px;
+  background:var(--soft);
+  border-left:4px solid var(--gold);
+}
+.sound-out h3{
+  margin:0 0 12px;
+  color:var(--olive-dark);
+  font-size:23px;
+}
+.hebrew-example{
+  direction:rtl;
+  unicode-bidi:isolate;
+  font-family:"Times New Roman","Noto Serif Hebrew",serif;
+  font-size:38px;
+  line-height:1.35;
+  text-align:right;
+  margin:8px 0 20px;
+}
+.sound-piece{
+  width:min(100%,640px);
+  margin:20px 0 20px auto;
+}
+.sound-piece .hebrew{
+  direction:rtl;
+  unicode-bidi:isolate;
+  text-align:right;
+  font-family:"Times New Roman","Noto Serif Hebrew",serif;
+  font-size:36px;
+  line-height:1.25;
+  color:var(--olive-dark);
+  margin-bottom:4px;
+}
+.sound-piece .explain{
+  direction:ltr;
+  text-align:left;
+  font-size:17px;
+  line-height:1.62;
+  margin:0;
+}
+.sound-result{
+  text-align:center;
+  color:var(--olive-dark);
+  font-size:20px;
+  font-weight:700;
+  margin:24px 0 10px;
+}
+
+@media(max-width:650px){
+  main{padding:40px 16px 60px}
+  .section{padding:0}
+  .section summary{padding:17px 20px;font-size:22px}
+  .section summary .hint{font-size:12px}
+  .section-body{padding:14px 20px 24px}
+  .sound-out{padding:20px 18px}
+  nav a{padding:11px 9px;font-size:13px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">HEBREW STUDY</div>
+  <div class="tagline">His Word • His Covenant • His Kingdom</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="Hebrew-Study-Step-4B-Learn-Hebrew-WORKING.html">Learn Hebrew</a>
+    <a href="Hebrew-Study-Step-5B-Practice-Verses-WORKING.html">Practice Verses</a>
+    <a href="Hebrew-Study-Step-6B-Worksheets-WORKING.html">Worksheets</a>
+    <a href="Hebrew-Study-Step-7B-Bible-Study-WORKING.html">Bible Study</a>
+    <a class="active" href="Hebrew-Study-How-to-Use.html">How to Use</a>
+    <a href="Hebrew-Study-About.html">About</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">A Simple Way to Begin</div>
+    <h1>How to Use This Study</h1>
+    <p class="intro">You don’t need to know Hebrew before you begin. That’s what we’re here to learn! This study is designed to take you from the smallest part of the Hebrew text to reading the words together in Scripture. Take your time. There is no prize for getting there first.</p>
+    <hr class="rule">
+  </section>
+
+  <details class="section">
+    <summary><span class="num">01</span> Learn Hebrew <span class="hint">Click to open</span></summary>
+    <div class="section-body">
+      <p><strong>Start with the letters.</strong></p>
+      <p>Each verse is broken down into individual Hebrew words. Begin by looking at the Hebrew letters that make up each word and learning the name of each letter.</p>
+      <p>Hebrew is read from <strong>right to left</strong>, so give yourself time to become familiar with seeing and reading the letters in a different direction.</p>
+      <p>You will also notice small dots and marks around the Hebrew letters. These are called <strong>vowel marks, or niqqud</strong>. The vowel marks work with the letters and help tell us how the word is pronounced. Learning to recognize both the letters and their vowel marks will make the words increasingly familiar.</p>
+
+      <div class="sound-out">
+        <h3>Sound It Out</h3>
+        <p>One of the encouraging things about learning Biblical Hebrew is that you can begin to sound out a Hebrew word much like you learned to sound out words in English. You don’t have to look at an entire Hebrew word and somehow know what it says.</p>
+        <p>Let’s use <strong>Elohim</strong> as an example:</p>
+        <div class="hebrew-example" lang="he">אֱלֹהִים</div>
+
+        <div class="sound-piece">
+          <div class="hebrew" lang="he">אֱ</div>
+          <p class="explain">The <strong>hataf-segol</strong>, the five dots beneath the aleph, adds the short <strong>“eh”</strong> vowel sound.</p>
+        </div>
+
+        <div class="sound-piece">
+          <div class="hebrew" lang="he">לֹ</div>
+          <p class="explain">The <strong>holam</strong> above the lamed adds the long <strong>“o”</strong> vowel sound to the “l” sound.</p>
+        </div>
+
+        <div class="sound-piece">
+          <div class="hebrew" lang="he">הִ</div>
+          <p class="explain">The <strong>hiriq</strong> beneath the Hebrew letter <strong>he (ה)</strong> adds the <strong>“ee”</strong> vowel sound to the “h” sound.</p>
+        </div>
+
+        <div class="sound-piece">
+          <div class="hebrew" lang="he">ם</div>
+          <p class="explain">The final letter is <strong>final mem</strong>, giving us the closing <strong>“m”</strong> sound.</p>
+        </div>
+
+        <div class="sound-result">eh + lo + hee + mmm → eh-lo-HEEM → Elohim</div>
+
+        <p>The letters give you the framework, and the niqqud adds the vowel sounds. That is what the <strong>Niqqud Reference Sheet</strong> is there to help you do <strong>(you’ll find it under Worksheets)</strong>. When you encounter a vowel mark, find it on the sheet, learn its name and sound, and look at how it works with the Hebrew letter.</p>
+        <p>Of course, Hebrew also has silent letters and other reading rules. We aren’t going to try to learn every rule at once. We’ll work through them as they are presented in the words we study. <strong>As you encounter them, study them.</strong></p>
+      </div>
+
+      <p>The <strong>Learn Hebrew</strong> tab gives you individual audio cards for the words in each verse. Listen to the word, say it aloud, and listen again.</p>
+      <p>Don’t worry about speed. Familiarity comes with repetition.</p>
+    </div>
+  </details>
+
+  <details class="section">
+    <summary><span class="num">02</span> Practice Verses <span class="hint">Click to open</span></summary>
+    <div class="section-body">
+      <p>After you have worked through all the individual words in a verse, go to <strong>Practice Verses</strong> and find that same verse.</p>
+      <p>This is where you begin putting everything together.</p>
+      <p>You have already seen the letters, learned the words, and listened to them individually. Now listen to the words as they appear together in Scripture and practice saying the verse aloud.</p>
+      <p>Start slowly. Repeat it. Listen again. Say it again.</p>
+      <div class="anchor">Letter → Word → Phrase → Verse</div>
+    </div>
+  </details>
+
+  <details class="section">
+    <summary><span class="num">03</span> Worksheets <span class="hint">Click to open</span></summary>
+    <div class="section-body">
+      <p>The printable worksheets are where you can slow everything down and work through the Hebrew on paper.</p>
+      <p>For each word, the worksheet identifies the <strong>Hebrew letters and their names</strong> and shows the <strong>vowel marks</strong> associated with those letters.</p>
+      <div class="niqqud-note">
+        <h3>Use the Niqqud Reference Sheet</h3>
+        <p>Keep the niqqud reference sheet nearby as you work. It pulls the vowel marks apart individually so you can see each mark clearly, learn the sound it represents, and begin remembering it when you see it attached to a Hebrew letter.</p>
+      </div>
+      <ol class="steps">
+        <li><strong>Hebrew letters and vowel marks:</strong> Look carefully at how the word is written. Identify the individual letters and notice the niqqud associated with them.</li>
+        <li><strong>Transliteration:</strong> Transliteration represents the Hebrew letters using letters from our English alphabet. It gives you a way to follow the Hebrew word while you are still learning to recognize the Hebrew letters themselves.</li>
+        <li><strong>Pronunciation:</strong> The pronunciation guide tells you how to actually say the word, so there is no doubt about how it should sound.</li>
+      </ol>
+      <p>Then write it yourself.</p>
+      <div class="niqqud-note">
+        <h3>Remember: Write from Right to Left</h3>
+        <p>When you practice writing Hebrew, remember that Hebrew is written from <strong>right to left</strong>. Start on the right side and work your way toward the left.</p>
+      </div>
+      <p>Practice writing the Hebrew while saying the word aloud. Look at the letters. Notice the vowel marks. Say the word. Write it again.</p>
+      <p><strong>Repetition is your friend.</strong></p>
+      <p>The goal isn’t simply to fill out a worksheet. The more often you see, hear, speak, and write a Hebrew word, the more familiar that word becomes when you encounter it again in Scripture.</p>
+    </div>
+  </details>
+
+  <details class="section">
+    <summary><span class="num">04</span> Bible Study <span class="hint">Click to open</span></summary>
+    <div class="section-body">
+      <p>Learning the Hebrew words sometimes leads us somewhere we didn’t expect.</p>
+      <p>As we study a Hebrew word found in a particular Scripture, we look for places where that word, thought, or theme connects with other passages throughout the Bible. Those connections have become the basis for the studies found under <strong>Bible Study</strong>.</p>
+      <p>Following a word through Scripture helps us remember what we’ve learned, but it also gives us an opportunity to dig deeper into the Word of God.</p>
+      <p>A Hebrew word is much easier to remember when it becomes connected to a passage, a story, or a truth you’ve spent time studying.</p>
+      <p>So don’t think of Bible Study as something separate from learning Hebrew. It is another part of the process.</p>
+      <p>And don’t limit yourself to the studies found here. Bible apps and concordances can help you find other places throughout Scripture where the Hebrew words you are studying are used.</p>
+      <p><strong>Investigate for yourself.</strong> Follow the word through Scripture, study the passages around it, and see where God leads you and how He opens the Scripture up to you.</p>
+    </div>
+  </details>
+
+  <div class="closing">
+    <strong>Learn the letters. Learn the word. Hear it. Say it. Write it. Find it in Scripture. Follow where it leads.</strong>
+  </div>
+</main>
+
+<footer>
+  <strong>HIS WORD • HIS COVENANT • HIS KINGDOM</strong>
+  It all started with His Word.
+</footer>
+</body>
+</html>
