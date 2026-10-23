@@ -24,40 +24,12 @@ body{
     linear-gradient(#f8f3e7,#f1ead8);
   font-family:Georgia,"Times New Roman",serif;
 }
-header{
-  background:#f8f2e3;
-  border-bottom:1px solid var(--line);
-  text-align:center;
-  padding:28px 18px 0;
-}
-.brand{
-  color:var(--olive-dark);
-  font-size:clamp(28px,4vw,46px);
-  letter-spacing:.08em;
-  font-weight:700;
-}
-.tagline{
-  margin:8px 0 22px;
-  color:#786a49;
-  letter-spacing:.13em;
-  font-size:13px;
-  text-transform:uppercase;
-}
-nav{
-  border-top:1px solid var(--line);
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-}
-nav a{
-  color:var(--olive-dark);
-  text-decoration:none;
-  padding:14px 16px;
-  font-size:15px;
-}
-nav a:hover,nav a.active{
-  background:rgba(89,96,61,.09);
-}
+header{background:#fbf7ee;border-bottom:0;text-align:center;padding:17px 20px 12px}
+.brand{color:#383229;font-size:30px;letter-spacing:.12em;font-weight:500}
+.tagline{margin:5px 0 0;color:#6d775f;font-style:italic;font-size:14px;letter-spacing:normal;text-transform:none}
+nav{display:flex;justify-content:center;flex-wrap:wrap;background:#3f4c38;box-shadow:0 2px 5px #0002;border:0}
+nav a{color:#fffaf0;text-decoration:none;padding:11px 18px;font:14px Georgia,"Times New Roman",serif}
+nav a:hover,nav a[aria-current="page"]{background:#ffffff18}
 main{
   max-width:1000px;
   margin:0 auto;
@@ -294,16 +266,17 @@ footer strong{
 <header>
   <div class="brand">HEBREW STUDY</div>
   <div class="tagline">His Word • His Covenant • His Kingdom</div>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="Hebrew-Study-Step-4B-Learn-Hebrew-WORKING.html">Learn Hebrew</a>
-    <a href="Hebrew-Study-Step-5B-Practice-Verses-WORKING.html">Practice Verses</a>
-    <a href="Hebrew-Study-Step-6B-Worksheets-WORKING.html">Worksheets</a>
-    <a href="Hebrew-Study-Step-7B-Bible-Study-WORKING.html">Bible Study</a>
-    <a class="active" href="Hebrew-Study-How-to-Use.html">How to Use</a>
-    <a href="Hebrew-Study-About.html">About</a>
-  </nav>
 </header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="Hebrew-Letter-Practice.html">Letter Practice</a>
+  <a href="Hebrew-Study-Step-4B-Learn-Hebrew-WORKING.html">Learn Hebrew</a>
+  <a href="Hebrew-Study-Step-5B-Practice-Verses-WORKING.html">Practice Verses</a>
+  <a href="Hebrew-Study-Step-6B-Worksheets-WORKING.html">Worksheets</a>
+  <a href="Hebrew-Study-Step-7B-Bible-Study-WORKING.html">Bible Study</a>
+  <a href="Hebrew-Study-How-to-Use.html" aria-current="page">How to Use</a>
+  <a href="Hebrew-Study-About.html">About</a>
+</nav>
 
 <main>
   <section class="hero">
