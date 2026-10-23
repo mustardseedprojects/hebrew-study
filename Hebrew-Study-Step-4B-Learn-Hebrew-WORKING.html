@@ -122,8 +122,10 @@ Promise.all([
 });
 
 function cleanHebrew(s){
+  // Preserve vowel marks: וַיְהִי and וִיהִי are different words.
+  // Remove only cantillation and meteg, which can vary between displays.
   return s.normalize("NFD")
-    .replace(/[\u0591-\u05C7]/g,"")
+    .replace(/[\u0591-\u05AF\u05BD]/g,"")
     .replace(/[׃|{}פ]/g,"")
     .replace(/־/g,"")
     .normalize("NFC")
