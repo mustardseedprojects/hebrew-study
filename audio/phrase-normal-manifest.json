@@ -67,5 +67,321 @@
   },
   "s11-4": {
     "file": "phrase-normal/s11-4.mp3"
+  },
+  "s12-0": {
+    "file": "phrases/gen1-12-00-2915ae84318d.mp3",
+    "slow_file": "phrases/gen1-12-00-2915ae84318d-slow.mp3"
+  },
+  "s12-1": {
+    "file": "phrases/gen1-12-01-44ac0e047527.mp3",
+    "slow_file": "phrases/gen1-12-01-44ac0e047527-slow.mp3"
+  },
+  "s12-2": {
+    "file": "phrases/gen1-12-02-b6f5aa186121.mp3",
+    "slow_file": "phrases/gen1-12-02-b6f5aa186121-slow.mp3"
+  },
+  "s12-3": {
+    "file": "phrases/gen1-12-03-4c3138aeea5b.mp3",
+    "slow_file": "phrases/gen1-12-03-4c3138aeea5b-slow.mp3"
+  },
+  "s13-0": {
+    "file": "phrases/gen1-13-00-41c35fbdabaf.mp3",
+    "slow_file": "phrases/gen1-13-00-41c35fbdabaf-slow.mp3"
+  },
+  "s13-1": {
+    "file": "phrases/gen1-13-01-5d458e9c72c3.mp3",
+    "slow_file": "phrases/gen1-13-01-5d458e9c72c3-slow.mp3"
+  },
+  "s14-0": {
+    "file": "phrases/gen1-14-00-3fd63ec356b3.mp3",
+    "slow_file": "phrases/gen1-14-00-3fd63ec356b3-slow.mp3"
+  },
+  "s14-1": {
+    "file": "phrases/gen1-14-01-115f7a772729.mp3",
+    "slow_file": "phrases/gen1-14-01-115f7a772729-slow.mp3"
+  },
+  "s14-2": {
+    "file": "phrases/gen1-14-02-03fed97f9ac8.mp3",
+    "slow_file": "phrases/gen1-14-02-03fed97f9ac8-slow.mp3"
+  },
+  "s14-3": {
+    "file": "phrases/gen1-14-03-5d56e8b44639.mp3",
+    "slow_file": "phrases/gen1-14-03-5d56e8b44639-slow.mp3"
+  },
+  "s15-0": {
+    "file": "phrases/gen1-15-00-34c0768ffc65.mp3",
+    "slow_file": "phrases/gen1-15-00-34c0768ffc65-slow.mp3"
+  },
+  "s15-1": {
+    "file": "phrases/gen1-15-01-6766afc68b94.mp3",
+    "slow_file": "phrases/gen1-15-01-6766afc68b94-slow.mp3"
+  },
+  "s16-0": {
+    "file": "phrases/gen1-16-00-473e886ba121.mp3",
+    "slow_file": "phrases/gen1-16-00-473e886ba121-slow.mp3"
+  },
+  "s16-1": {
+    "file": "phrases/gen1-16-01-8d167c6a7835.mp3",
+    "slow_file": "phrases/gen1-16-01-8d167c6a7835-slow.mp3"
+  },
+  "s16-2": {
+    "file": "phrases/gen1-16-02-3b1aa7728837.mp3",
+    "slow_file": "phrases/gen1-16-02-3b1aa7728837-slow.mp3"
+  },
+  "s16-3": {
+    "file": "phrases/gen1-16-03-5c9ff8a7d4eb.mp3",
+    "slow_file": "phrases/gen1-16-03-5c9ff8a7d4eb-slow.mp3"
+  },
+  "s16-4": {
+    "file": "phrases/gen1-16-04-9d905da9458f.mp3",
+    "slow_file": "phrases/gen1-16-04-9d905da9458f-slow.mp3"
+  },
+  "s17-0": {
+    "file": "phrases/gen1-17-00-56aabfa3a276.mp3",
+    "slow_file": "phrases/gen1-17-00-56aabfa3a276-slow.mp3"
+  },
+  "s17-1": {
+    "file": "phrases/gen1-17-01-c150f3bdc717.mp3",
+    "slow_file": "phrases/gen1-17-01-c150f3bdc717-slow.mp3"
+  },
+  "s18-0": {
+    "file": "phrases/gen1-18-00-08444fc1cf2f.mp3",
+    "slow_file": "phrases/gen1-18-00-08444fc1cf2f-slow.mp3"
+  },
+  "s18-1": {
+    "file": "phrases/gen1-18-01-1f41c77c0c2f.mp3",
+    "slow_file": "phrases/gen1-18-01-1f41c77c0c2f-slow.mp3"
+  },
+  "s18-2": {
+    "file": "phrases/gen1-18-02-dbc4c8b0c7ce.mp3",
+    "slow_file": "phrases/gen1-18-02-dbc4c8b0c7ce-slow.mp3"
+  },
+  "s19-0": {
+    "file": "phrases/gen1-19-00-41c35fbdabaf.mp3",
+    "slow_file": "phrases/gen1-19-00-41c35fbdabaf-slow.mp3"
+  },
+  "s19-1": {
+    "file": "phrases/gen1-19-01-e2ec9f5929a9.mp3",
+    "slow_file": "phrases/gen1-19-01-e2ec9f5929a9-slow.mp3"
+  },
+  "s20-0": {
+    "file": "phrases/gen1-20-00-ba151f6359f7.mp3",
+    "slow_file": "phrases/gen1-20-00-ba151f6359f7-slow.mp3"
+  },
+  "s20-1": {
+    "file": "phrases/gen1-20-01-cc8ae9fa1667.mp3",
+    "slow_file": "phrases/gen1-20-01-cc8ae9fa1667-slow.mp3"
+  },
+  "s20-2": {
+    "file": "phrases/gen1-20-02-a6c01a44c1c8.mp3",
+    "slow_file": "phrases/gen1-20-02-a6c01a44c1c8-slow.mp3"
+  },
+  "s20-3": {
+    "file": "phrases/gen1-20-03-23c39f3d46cf.mp3",
+    "slow_file": "phrases/gen1-20-03-23c39f3d46cf-slow.mp3"
+  },
+  "s21-0": {
+    "file": "phrases/gen1-21-00-6572be3f5a99.mp3",
+    "slow_file": "phrases/gen1-21-00-6572be3f5a99-slow.mp3"
+  },
+  "s21-1": {
+    "file": "phrases/gen1-21-01-64e7d35d99b3.mp3",
+    "slow_file": "phrases/gen1-21-01-64e7d35d99b3-slow.mp3"
+  },
+  "s21-2": {
+    "file": "phrases/gen1-21-02-388b91b9f380.mp3",
+    "slow_file": "phrases/gen1-21-02-388b91b9f380-slow.mp3"
+  },
+  "s21-3": {
+    "file": "phrases/gen1-21-03-f2438500540a.mp3",
+    "slow_file": "phrases/gen1-21-03-f2438500540a-slow.mp3"
+  },
+  "s21-4": {
+    "file": "phrases/gen1-21-04-0e8be3a0324c.mp3",
+    "slow_file": "phrases/gen1-21-04-0e8be3a0324c-slow.mp3"
+  },
+  "s21-5": {
+    "file": "phrases/gen1-21-05-3a2a8575e398.mp3",
+    "slow_file": "phrases/gen1-21-05-3a2a8575e398-slow.mp3"
+  },
+  "s22-0": {
+    "file": "phrases/gen1-22-00-a4707e300a4e.mp3",
+    "slow_file": "phrases/gen1-22-00-a4707e300a4e-slow.mp3"
+  },
+  "s22-1": {
+    "file": "phrases/gen1-22-01-17e4ff321d07.mp3",
+    "slow_file": "phrases/gen1-22-01-17e4ff321d07-slow.mp3"
+  },
+  "s22-2": {
+    "file": "phrases/gen1-22-02-2d3f7db62d23.mp3",
+    "slow_file": "phrases/gen1-22-02-2d3f7db62d23-slow.mp3"
+  },
+  "s23-0": {
+    "file": "phrases/gen1-23-00-41c35fbdabaf.mp3",
+    "slow_file": "phrases/gen1-23-00-41c35fbdabaf-slow.mp3"
+  },
+  "s23-1": {
+    "file": "phrases/gen1-23-01-8a59fe948b8f.mp3",
+    "slow_file": "phrases/gen1-23-01-8a59fe948b8f-slow.mp3"
+  },
+  "s24-0": {
+    "file": "phrases/gen1-24-00-9cf1272026aa.mp3",
+    "slow_file": "phrases/gen1-24-00-9cf1272026aa-slow.mp3"
+  },
+  "s24-1": {
+    "file": "phrases/gen1-24-01-47d94dd9e048.mp3",
+    "slow_file": "phrases/gen1-24-01-47d94dd9e048-slow.mp3"
+  },
+  "s24-2": {
+    "file": "phrases/gen1-24-02-c39f23764926.mp3",
+    "slow_file": "phrases/gen1-24-02-c39f23764926-slow.mp3"
+  },
+  "s24-3": {
+    "file": "phrases/gen1-24-03-8523e10a852b.mp3",
+    "slow_file": "phrases/gen1-24-03-8523e10a852b-slow.mp3"
+  },
+  "s25-0": {
+    "file": "phrases/gen1-25-00-51aa0a8ae711.mp3",
+    "slow_file": "phrases/gen1-25-00-51aa0a8ae711-slow.mp3"
+  },
+  "s25-1": {
+    "file": "phrases/gen1-25-01-b3fccb30f657.mp3",
+    "slow_file": "phrases/gen1-25-01-b3fccb30f657-slow.mp3"
+  },
+  "s25-2": {
+    "file": "phrases/gen1-25-02-0b5329858bab.mp3",
+    "slow_file": "phrases/gen1-25-02-0b5329858bab-slow.mp3"
+  },
+  "s25-3": {
+    "file": "phrases/gen1-25-03-842597489f7f.mp3",
+    "slow_file": "phrases/gen1-25-03-842597489f7f-slow.mp3"
+  },
+  "s25-4": {
+    "file": "phrases/gen1-25-04-3a2a8575e398.mp3",
+    "slow_file": "phrases/gen1-25-04-3a2a8575e398-slow.mp3"
+  },
+  "s26-0": {
+    "file": "phrases/gen1-26-00-8511d6ec48ad.mp3",
+    "slow_file": "phrases/gen1-26-00-8511d6ec48ad-slow.mp3"
+  },
+  "s26-1": {
+    "file": "phrases/gen1-26-01-fcc64fd3c0de.mp3",
+    "slow_file": "phrases/gen1-26-01-fcc64fd3c0de-slow.mp3"
+  },
+  "s26-2": {
+    "file": "phrases/gen1-26-02-7a1c3061dfbe.mp3",
+    "slow_file": "phrases/gen1-26-02-7a1c3061dfbe-slow.mp3"
+  },
+  "s26-3": {
+    "file": "phrases/gen1-26-03-1dbc9bc06ffb.mp3",
+    "slow_file": "phrases/gen1-26-03-1dbc9bc06ffb-slow.mp3"
+  },
+  "s26-4": {
+    "file": "phrases/gen1-26-04-68a5ddd3f931.mp3",
+    "slow_file": "phrases/gen1-26-04-68a5ddd3f931-slow.mp3"
+  },
+  "s27-0": {
+    "file": "phrases/gen1-27-00-e5673c0cd136.mp3",
+    "slow_file": "phrases/gen1-27-00-e5673c0cd136-slow.mp3"
+  },
+  "s27-1": {
+    "file": "phrases/gen1-27-01-fe0324ed4f8a.mp3",
+    "slow_file": "phrases/gen1-27-01-fe0324ed4f8a-slow.mp3"
+  },
+  "s27-2": {
+    "file": "phrases/gen1-27-02-2841ab07dc56.mp3",
+    "slow_file": "phrases/gen1-27-02-2841ab07dc56-slow.mp3"
+  },
+  "s27-3": {
+    "file": "phrases/gen1-27-03-a102034c4e63.mp3",
+    "slow_file": "phrases/gen1-27-03-a102034c4e63-slow.mp3"
+  },
+  "s28-0": {
+    "file": "phrases/gen1-28-00-5cd68a2dafb2.mp3",
+    "slow_file": "phrases/gen1-28-00-5cd68a2dafb2-slow.mp3"
+  },
+  "s28-1": {
+    "file": "phrases/gen1-28-01-c4b100c99525.mp3",
+    "slow_file": "phrases/gen1-28-01-c4b100c99525-slow.mp3"
+  },
+  "s28-2": {
+    "file": "phrases/gen1-28-02-4f0d3c0e2c1e.mp3",
+    "slow_file": "phrases/gen1-28-02-4f0d3c0e2c1e-slow.mp3"
+  },
+  "s28-3": {
+    "file": "phrases/gen1-28-03-43642fe65aa5.mp3",
+    "slow_file": "phrases/gen1-28-03-43642fe65aa5-slow.mp3"
+  },
+  "s28-4": {
+    "file": "phrases/gen1-28-04-8c8edd4fb579.mp3",
+    "slow_file": "phrases/gen1-28-04-8c8edd4fb579-slow.mp3"
+  },
+  "s28-5": {
+    "file": "phrases/gen1-28-05-cf6ba5fafbe1.mp3",
+    "slow_file": "phrases/gen1-28-05-cf6ba5fafbe1-slow.mp3"
+  },
+  "s29-0": {
+    "file": "phrases/gen1-29-00-e7eb8dcd99f6.mp3",
+    "slow_file": "phrases/gen1-29-00-e7eb8dcd99f6-slow.mp3"
+  },
+  "s29-1": {
+    "file": "phrases/gen1-29-01-e4d204ed8c08.mp3",
+    "slow_file": "phrases/gen1-29-01-e4d204ed8c08-slow.mp3"
+  },
+  "s29-2": {
+    "file": "phrases/gen1-29-02-989f55a61d61.mp3",
+    "slow_file": "phrases/gen1-29-02-989f55a61d61-slow.mp3"
+  },
+  "s29-3": {
+    "file": "phrases/gen1-29-03-d94612d92c03.mp3",
+    "slow_file": "phrases/gen1-29-03-d94612d92c03-slow.mp3"
+  },
+  "s29-4": {
+    "file": "phrases/gen1-29-04-c42324075ec1.mp3",
+    "slow_file": "phrases/gen1-29-04-c42324075ec1-slow.mp3"
+  },
+  "s29-5": {
+    "file": "phrases/gen1-29-05-27ac61a35bc5.mp3",
+    "slow_file": "phrases/gen1-29-05-27ac61a35bc5-slow.mp3"
+  },
+  "s29-6": {
+    "file": "phrases/gen1-29-06-95bd1c2caf5a.mp3",
+    "slow_file": "phrases/gen1-29-06-95bd1c2caf5a-slow.mp3"
+  },
+  "s30-0": {
+    "file": "phrases/gen1-30-00-a71b9b3466cc.mp3",
+    "slow_file": "phrases/gen1-30-00-a71b9b3466cc-slow.mp3"
+  },
+  "s30-1": {
+    "file": "phrases/gen1-30-01-b8be08773219.mp3",
+    "slow_file": "phrases/gen1-30-01-b8be08773219-slow.mp3"
+  },
+  "s30-2": {
+    "file": "phrases/gen1-30-02-0f7b34ddf6c5.mp3",
+    "slow_file": "phrases/gen1-30-02-0f7b34ddf6c5-slow.mp3"
+  },
+  "s30-3": {
+    "file": "phrases/gen1-30-03-865c355d8f5c.mp3",
+    "slow_file": "phrases/gen1-30-03-865c355d8f5c-slow.mp3"
+  },
+  "s30-4": {
+    "file": "phrases/gen1-30-04-05df24fd271e.mp3",
+    "slow_file": "phrases/gen1-30-04-05df24fd271e-slow.mp3"
+  },
+  "s31-0": {
+    "file": "phrases/gen1-31-00-2bdf6ee48a35.mp3",
+    "slow_file": "phrases/gen1-31-00-2bdf6ee48a35-slow.mp3"
+  },
+  "s31-1": {
+    "file": "phrases/gen1-31-01-b9d5b67b6e62.mp3",
+    "slow_file": "phrases/gen1-31-01-b9d5b67b6e62-slow.mp3"
+  },
+  "s31-2": {
+    "file": "phrases/gen1-31-02-41c35fbdabaf.mp3",
+    "slow_file": "phrases/gen1-31-02-41c35fbdabaf-slow.mp3"
+  },
+  "s31-3": {
+    "file": "phrases/gen1-31-03-53716ef5b193.mp3",
+    "slow_file": "phrases/gen1-31-03-53716ef5b193-slow.mp3"
   }
 }

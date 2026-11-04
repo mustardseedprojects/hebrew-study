@@ -131,27 +131,27 @@
   },
   "words": {
     "בְּרֵאשִׁית": {
-      "file": "words/word-001.mp3",
+      "file": "words/gen1-424a9bc4a0510031.mp3",
       "first_seen_verse": 1
     },
     "בָּרָא": {
-      "file": "words/word-002.mp3",
+      "file": "words/gen1-940bdaded1de8d16.mp3",
       "first_seen_verse": 1
     },
     "אֱלֹהִים": {
-      "file": "words/word-003.mp3",
+      "file": "words/gen1-e445de7376cada12.mp3",
       "first_seen_verse": 1
     },
     "אֵת": {
-      "file": "words/word-004.mp3",
+      "file": "words/gen1-75751a4dbccce9f5.mp3",
       "first_seen_verse": 1
     },
     "הַשָּׁמַיִם": {
-      "file": "words/word-005.mp3",
+      "file": "words/gen1-59e1869f97332ebe.mp3",
       "first_seen_verse": 1
     },
     "וְאֵת": {
-      "file": "repairs/vet.mp3",
+      "file": "words/gen1-2b2c41bf24f36448.mp3",
       "first_seen_verse": 1
     },
     "הָאָֽרֶץ": {
@@ -159,43 +159,43 @@
       "first_seen_verse": 1
     },
     "וְהָאָרֶץ": {
-      "file": "words/word-008.mp3",
+      "file": "words/gen1-728e318cbb8229dd.mp3",
       "first_seen_verse": 2
     },
     "הָיְתָה": {
-      "file": "words/word-009.mp3",
+      "file": "words/gen1-8bcb2bb32711b304.mp3",
       "first_seen_verse": 2
     },
     "תֹהוּ": {
-      "file": "words/word-010.mp3",
+      "file": "words/gen1-de376fadd1e95fc5.mp3",
       "first_seen_verse": 2
     },
     "וָבֹהוּ": {
-      "file": "repairs/vavohu.mp3",
+      "file": "words/gen1-9058e23e10a300f8.mp3",
       "first_seen_verse": 2
     },
     "וְחֹשֶׁךְ": {
-      "file": "words/word-012.mp3",
+      "file": "words/gen1-2030ffd3c0e973e4.mp3",
       "first_seen_verse": 2
     },
     "עַל": {
-      "file": "words/word-013.mp3",
+      "file": "words/gen1-2000bcb6e4c20a4f.mp3",
       "first_seen_verse": 2
     },
     "פְּנֵי": {
-      "file": "words/word-014.mp3",
+      "file": "words/gen1-1ea7db010f7f3fed.mp3",
       "first_seen_verse": 2
     },
     "תְהוֹם": {
-      "file": "words/word-015.mp3",
+      "file": "words/gen1-59219af5c9cb2813.mp3",
       "first_seen_verse": 2
     },
     "וְרוּחַ": {
-      "file": "words/word-016.mp3",
+      "file": "words/gen1-26cf7781d8525b4a.mp3",
       "first_seen_verse": 2
     },
     "מְרַחֶפֶת": {
-      "file": "words/word-017.mp3",
+      "file": "words/gen1-065e34886916eced.mp3",
       "first_seen_verse": 2
     },
     "הַמָּֽיִם": {
@@ -203,15 +203,15 @@
       "first_seen_verse": 2
     },
     "וַיֹּאמֶר": {
-      "file": "words/word-019.mp3",
+      "file": "words/gen1-0dfa9aa5a7867e8f.mp3",
       "first_seen_verse": 3
     },
     "יְהִי": {
-      "file": "words/word-020.mp3",
+      "file": "words/gen1-fa8508a0d4b8ba61.mp3",
       "first_seen_verse": 3
     },
     "אוֹר": {
-      "file": "words/word-021.mp3",
+      "file": "words/gen1-2577e875b68c8173.mp3",
       "first_seen_verse": 3
     },
     "וַֽיְהִי": {
@@ -223,35 +223,35 @@
       "first_seen_verse": 3
     },
     "וַיַּרְא": {
-      "file": "words/word-024.mp3",
+      "file": "words/gen1-7de3075bb9af5784.mp3",
       "first_seen_verse": 4
     },
     "אֶת": {
-      "file": "words/word-025.mp3",
+      "file": "words/gen1-9acc4c869c8b8a76.mp3",
       "first_seen_verse": 4
     },
     "הָאוֹר": {
-      "file": "words/word-026.mp3",
+      "file": "words/gen1-f3eac9bbb3b1ea1e.mp3",
       "first_seen_verse": 4
     },
     "כִּי": {
-      "file": "words/word-027.mp3",
+      "file": "words/gen1-6f41b26d156d277c.mp3",
       "first_seen_verse": 4
     },
     "טוֹב": {
-      "file": "words/word-028.mp3",
+      "file": "words/gen1-d77ac2ce13bcf1c4.mp3",
       "first_seen_verse": 4
     },
     "וַיַּבְדֵּל": {
-      "file": "words/word-029.mp3",
+      "file": "words/gen1-7d608a2f6f72c561.mp3",
       "first_seen_verse": 4
     },
     "בֵּין": {
-      "file": "words/word-030.mp3",
+      "file": "words/gen1-9027f70350cbd64e.mp3",
       "first_seen_verse": 4
     },
     "וּבֵין": {
-      "file": "words/word-031.mp3",
+      "file": "words/gen1-bd9ca81ea1a2a719.mp3",
       "first_seen_verse": 4
     },
     "הַחֹֽשֶׁךְ": {
@@ -259,35 +259,35 @@
       "first_seen_verse": 4
     },
     "וַיִּקְרָא": {
-      "file": "words/word-033.mp3",
+      "file": "words/gen1-b4d8007b4fef8a74.mp3",
       "first_seen_verse": 5
     },
     "לָאוֹר": {
-      "file": "words/word-034.mp3",
+      "file": "words/gen1-0395f10aaffd2673.mp3",
       "first_seen_verse": 5
     },
     "יוֹם": {
-      "file": "words/word-035.mp3",
+      "file": "words/gen1-ff312ee221a8454c.mp3",
       "first_seen_verse": 5
     },
     "וְלַחֹשֶׁךְ": {
-      "file": "repairs/velachoshekh.mp3",
+      "file": "words/gen1-c4590b2289be1964.mp3",
       "first_seen_verse": 5
     },
     "קָרָא": {
-      "file": "words/word-037.mp3",
+      "file": "words/gen1-e3acf46dc4742dcf.mp3",
       "first_seen_verse": 5
     },
     "לָיְלָה": {
-      "file": "words/word-038.mp3",
+      "file": "words/gen1-370ce664f5eafa85.mp3",
       "first_seen_verse": 5
     },
     "עֶרֶב": {
-      "file": "words/word-039.mp3",
+      "file": "words/gen1-70afb742b65f4757.mp3",
       "first_seen_verse": 5
     },
     "בֹקֶר": {
-      "file": "words/word-040.mp3",
+      "file": "words/gen1-1bec8269b690ecf4.mp3",
       "first_seen_verse": 5
     },
     "אֶחָֽד": {
@@ -299,27 +299,27 @@
       "first_seen_verse": 5
     },
     "רָקִיעַ": {
-      "file": "words/word-043.mp3",
+      "file": "words/gen1-94a31964c0e54924.mp3",
       "first_seen_verse": 6
     },
     "בְּתוֹךְ": {
-      "file": "words/word-044.mp3",
+      "file": "words/gen1-95028dfe5b59f071.mp3",
       "first_seen_verse": 6
     },
     "הַמָּיִם": {
-      "file": "words/word-045.mp3",
-      "first_seen_verse": 6
+      "file": "words/gen1-4299d483d7d3c612.mp3",
+      "first_seen_verse": 2
     },
     "וִיהִי": {
-      "file": "words/word-046.mp3",
+      "file": "words/gen1-9262d19c5573f704.mp3",
       "first_seen_verse": 6
     },
     "מַבְדִּיל": {
-      "file": "words/word-047.mp3",
+      "file": "words/gen1-c19f967b918cd04c.mp3",
       "first_seen_verse": 6
     },
     "מַיִם": {
-      "file": "words/word-048.mp3",
+      "file": "words/gen1-f9c5c88383d21f00.mp3",
       "first_seen_verse": 6
     },
     "לָמָֽיִם": {
@@ -327,31 +327,31 @@
       "first_seen_verse": 6
     },
     "וַיַּעַשׂ": {
-      "file": "words/word-050.mp3",
+      "file": "words/gen1-5199d1973185e507.mp3",
       "first_seen_verse": 7
     },
     "הָרָקִיעַ": {
-      "file": "words/word-051.mp3",
+      "file": "words/gen1-f34d22fb2a59697a.mp3",
       "first_seen_verse": 7
     },
     "הַמַּיִם": {
-      "file": "words/word-052.mp3",
+      "file": "words/gen1-c5a536321ce688d3.mp3",
       "first_seen_verse": 7
     },
     "אֲשֶׁר": {
-      "file": "words/word-053.mp3",
+      "file": "words/gen1-3665869da52bd6a0.mp3",
       "first_seen_verse": 7
     },
     "מִתַּחַת": {
-      "file": "words/word-054.mp3",
+      "file": "words/gen1-dfeb5cb3e35b22b2.mp3",
       "first_seen_verse": 7
     },
     "לָרָקִיעַ": {
-      "file": "words/word-055.mp3",
+      "file": "words/gen1-8994bd05c6074298.mp3",
       "first_seen_verse": 7
     },
     "מֵעַל": {
-      "file": "words/word-056.mp3",
+      "file": "words/gen1-bddb85b029043327.mp3",
       "first_seen_verse": 7
     },
     "כֵֽן": {
@@ -363,7 +363,7 @@
       "first_seen_verse": 8
     },
     "שָׁמָיִם": {
-      "file": "words/word-059.mp3",
+      "file": "words/gen1-2e8bd5aaf8bf6b1b.mp3",
       "first_seen_verse": 8
     },
     "שֵׁנִֽי": {
@@ -371,43 +371,43 @@
       "first_seen_verse": 8
     },
     "יִקָּווּ": {
-      "file": "words/word-061.mp3",
+      "file": "words/gen1-9c5c830189374a41.mp3",
       "first_seen_verse": 9
     },
     "אֶל": {
-      "file": "words/word-062.mp3",
+      "file": "words/gen1-6a4c0efd32bea34a.mp3",
       "first_seen_verse": 9
     },
     "מָקוֹם": {
-      "file": "words/word-063.mp3",
+      "file": "words/gen1-85dff43b7a6c5e61.mp3",
       "first_seen_verse": 9
     },
     "אֶחָד": {
-      "file": "words/word-064.mp3",
-      "first_seen_verse": 9
+      "file": "words/gen1-c899030999378169.mp3",
+      "first_seen_verse": 5
     },
     "וְתֵרָאֶה": {
-      "file": "words/word-065.mp3",
+      "file": "words/gen1-2b03a5c4537a26e5.mp3",
       "first_seen_verse": 9
     },
     "הַיַּבָּשָׁה": {
-      "file": "words/word-066.mp3",
+      "file": "words/gen1-d8ab1d8e9adad9ff.mp3",
       "first_seen_verse": 9
     },
     "לַיַּבָּשָׁה": {
-      "file": "words/word-067.mp3",
+      "file": "words/gen1-6a5cc6cfe50bd00c.mp3",
       "first_seen_verse": 10
     },
     "אֶרֶץ": {
-      "file": "words/word-068.mp3",
+      "file": "words/gen1-007c9089f1d5caf2.mp3",
       "first_seen_verse": 10
     },
     "וּלְמִקְוֵה": {
-      "file": "words/word-069.mp3",
+      "file": "words/gen1-63c85cb75683be70.mp3",
       "first_seen_verse": 10
     },
     "יַמִּים": {
-      "file": "words/word-070.mp3",
+      "file": "words/gen1-ded1444241281096.mp3",
       "first_seen_verse": 10
     },
     "טֽוֹב": {
@@ -419,59 +419,59 @@
       "first_seen_verse": 11
     },
     "הָאָרֶץ": {
-      "file": "words/word-073.mp3",
-      "first_seen_verse": 11
+      "file": "words/gen1-5cccc35dcd565da4.mp3",
+      "first_seen_verse": 1
     },
     "דֶּשֶׁא": {
-      "file": "words/word-074.mp3",
+      "file": "words/gen1-3f35423bed10b822.mp3",
       "first_seen_verse": 11
     },
     "עֵשֶׂב": {
-      "file": "words/word-075.mp3",
+      "file": "words/gen1-a5bbe7945466a972.mp3",
       "first_seen_verse": 11
     },
     "מַזְרִיעַ": {
-      "file": "words/word-076.mp3",
+      "file": "words/gen1-502d11ce2e400697.mp3",
       "first_seen_verse": 11
     },
     "זֶרַע": {
-      "file": "words/word-077.mp3",
+      "file": "words/gen1-d87b0fcf0707b8aa.mp3",
       "first_seen_verse": 11
     },
     "עֵץ": {
-      "file": "words/word-078.mp3",
+      "file": "words/gen1-af0decf17c3ae127.mp3",
       "first_seen_verse": 11
     },
     "פְּרִי": {
-      "file": "words/word-079.mp3",
+      "file": "words/gen1-38d54db102b1416d.mp3",
       "first_seen_verse": 11
     },
     "עֹשֶׂה": {
-      "file": "words/word-080.mp3",
+      "file": "words/gen1-5cd09a238470790c.mp3",
       "first_seen_verse": 11
     },
     "לְמִינוֹ": {
-      "file": "words/word-081.mp3",
+      "file": "words/gen1-8f727251f8d23325.mp3",
       "first_seen_verse": 11
     },
     "זַרְעוֹ": {
-      "file": "words/word-082.mp3",
+      "file": "words/gen1-de7604cf0f6dee9c.mp3",
       "first_seen_verse": 11
     },
     "בוֹ": {
-      "file": "words/word-083.mp3",
+      "file": "words/gen1-d6fcb08d6d731df2.mp3",
       "first_seen_verse": 11
     },
     "וַתּוֹצֵא": {
-      "file": "words/word-084.mp3",
+      "file": "words/gen1-1cc54e4b485991a6.mp3",
       "first_seen_verse": 12
     },
     "לְמִינֵהוּ": {
-      "file": "words/word-085.mp3",
+      "file": "words/gen1-5ab9d0c3a1b0e97b.mp3",
       "first_seen_verse": 12
     },
     "וְעֵץ": {
-      "file": "words/word-086.mp3",
+      "file": "words/gen1-4516a9e0b3179e5e.mp3",
       "first_seen_verse": 12
     },
     "עֹֽשֶׂה": {
@@ -483,39 +483,39 @@
       "first_seen_verse": 13
     },
     "מְאֹרֹת": {
-      "file": "words/word-089.mp3",
+      "file": "words/gen1-67da50a065b2ce5f.mp3",
       "first_seen_verse": 14
     },
     "בִּרְקִיעַ": {
-      "file": "words/word-090.mp3",
+      "file": "words/gen1-283412bab4d8e62d.mp3",
       "first_seen_verse": 14
     },
     "לְהַבְדִּיל": {
-      "file": "words/word-091.mp3",
+      "file": "words/gen1-41aad81d3d09cc73.mp3",
       "first_seen_verse": 14
     },
     "הַיּוֹם": {
-      "file": "words/word-092.mp3",
+      "file": "words/gen1-712ec1eaa5dd3ede.mp3",
       "first_seen_verse": 14
     },
     "הַלָּיְלָה": {
-      "file": "words/word-093.mp3",
+      "file": "words/gen1-49b039728e840fc1.mp3",
       "first_seen_verse": 14
     },
     "וְהָיוּ": {
-      "file": "words/word-094.mp3",
+      "file": "words/gen1-f78344433c90aeba.mp3",
       "first_seen_verse": 14
     },
     "לְאֹתֹת": {
-      "file": "words/word-095.mp3",
+      "file": "words/gen1-48257d133f77b639.mp3",
       "first_seen_verse": 14
     },
     "וּלְמוֹעֲדִים": {
-      "file": "words/word-096.mp3",
+      "file": "words/gen1-901c311f22bfa3b9.mp3",
       "first_seen_verse": 14
     },
     "וּלְיָמִים": {
-      "file": "words/word-097.mp3",
+      "file": "words/gen1-0a9f099e466790b8.mp3",
       "first_seen_verse": 14
     },
     "וְשָׁנִֽים": {
@@ -523,47 +523,47 @@
       "first_seen_verse": 14
     },
     "לִמְאוֹרֹת": {
-      "file": "words/word-099.mp3",
+      "file": "words/gen1-150435b78eda872b.mp3",
       "first_seen_verse": 15
     },
     "לְהָאִיר": {
-      "file": "words/word-100.mp3",
+      "file": "words/gen1-2a75ed12df294917.mp3",
       "first_seen_verse": 15
     },
     "שְׁנֵי": {
-      "file": "words/word-101.mp3",
+      "file": "words/gen1-29faeeafc14b8938.mp3",
       "first_seen_verse": 16
     },
     "הַמְּאֹרֹת": {
-      "file": "words/word-102.mp3",
+      "file": "words/gen1-635c9e670dfaa30e.mp3",
       "first_seen_verse": 16
     },
     "הַגְּדֹלִים": {
-      "file": "words/word-103.mp3",
+      "file": "words/gen1-0594c9ee745640f5.mp3",
       "first_seen_verse": 16
     },
     "הַמָּאוֹר": {
-      "file": "words/word-104.mp3",
+      "file": "words/gen1-06c155e098886cd3.mp3",
       "first_seen_verse": 16
     },
     "הַגָּדֹל": {
-      "file": "words/word-105.mp3",
+      "file": "words/gen1-ae2e6fda2b6d1550.mp3",
       "first_seen_verse": 16
     },
     "לְמֶמְשֶׁלֶת": {
-      "file": "words/word-106.mp3",
+      "file": "words/gen1-80e8e9d7bf5e2bfd.mp3",
       "first_seen_verse": 16
     },
     "וְאֶת": {
-      "file": "words/word-107.mp3",
+      "file": "words/gen1-950dd0440813d0bc.mp3",
       "first_seen_verse": 16
     },
     "הַקָּטֹן": {
-      "file": "words/word-108.mp3",
+      "file": "words/gen1-a914828eb6c167af.mp3",
       "first_seen_verse": 16
     },
     "הַלַּיְלָה": {
-      "file": "words/word-109.mp3",
+      "file": "words/gen1-bcb311cd9ae7e680.mp3",
       "first_seen_verse": 16
     },
     "הַכּוֹכָבִֽים": {
@@ -571,27 +571,27 @@
       "first_seen_verse": 16
     },
     "וַיִּתֵּן": {
-      "file": "words/word-111.mp3",
+      "file": "words/gen1-6ae1ae56adbc0124.mp3",
       "first_seen_verse": 17
     },
     "אֹתָם": {
-      "file": "words/word-112.mp3",
+      "file": "words/gen1-c658f4441c5d2e45.mp3",
       "first_seen_verse": 17
     },
     "הַשָּׁמָיִם": {
-      "file": "words/word-113.mp3",
+      "file": "words/gen1-11ed69cbcd14ba57.mp3",
       "first_seen_verse": 17
     },
     "וְלִמְשֹׁל": {
-      "file": "words/word-114.mp3",
+      "file": "words/gen1-e92a617f9f92b342.mp3",
       "first_seen_verse": 18
     },
     "בַּיּוֹם": {
-      "file": "words/word-115.mp3",
+      "file": "words/gen1-410ba25595ab1ae4.mp3",
       "first_seen_verse": 18
     },
     "וּבַלַּיְלָה": {
-      "file": "words/word-116.mp3",
+      "file": "words/gen1-7354ae8db1511e77.mp3",
       "first_seen_verse": 18
     },
     "וּֽלְהַבְדִּיל": {
@@ -599,39 +599,39 @@
       "first_seen_verse": 18
     },
     "הַחֹשֶׁךְ": {
-      "file": "words/word-118.mp3",
-      "first_seen_verse": 18
+      "file": "words/gen1-270a9357ee124558.mp3",
+      "first_seen_verse": 4
     },
     "רְבִיעִֽי": {
       "file": "words/word-119.mp3",
       "first_seen_verse": 19
     },
     "יִשְׁרְצוּ": {
-      "file": "words/word-120.mp3",
+      "file": "words/gen1-7ecc70ff1841cde2.mp3",
       "first_seen_verse": 20
     },
     "שֶׁרֶץ": {
-      "file": "words/word-121.mp3",
+      "file": "words/gen1-303f7f9bd1d89925.mp3",
       "first_seen_verse": 20
     },
     "נֶפֶשׁ": {
-      "file": "words/word-122.mp3",
+      "file": "words/gen1-9a14ca4508c864ec.mp3",
       "first_seen_verse": 20
     },
     "חַיָּה": {
-      "file": "words/word-123.mp3",
+      "file": "words/gen1-157455f9ea027252.mp3",
       "first_seen_verse": 20
     },
     "וְעוֹף": {
-      "file": "words/word-124.mp3",
+      "file": "words/gen1-2d682194332ffa87.mp3",
       "first_seen_verse": 20
     },
     "יְעוֹפֵף": {
-      "file": "words/word-125.mp3",
+      "file": "words/gen1-552206a0b7f7f19d.mp3",
       "first_seen_verse": 20
     },
     "רְקִיעַ": {
-      "file": "words/word-126.mp3",
+      "file": "words/gen1-e3aa4fa801d03d1d.mp3",
       "first_seen_verse": 20
     },
     "הַשָּׁמָֽיִם": {
@@ -639,11 +639,11 @@
       "first_seen_verse": 20
     },
     "וַיִּבְרָא": {
-      "file": "words/word-128.mp3",
+      "file": "words/gen1-d1f007f37b6bc338.mp3",
       "first_seen_verse": 21
     },
     "הַתַּנִּינִם": {
-      "file": "words/word-129.mp3",
+      "file": "words/gen1-cc951efcc09ac65f.mp3",
       "first_seen_verse": 21
     },
     "כׇּל": {
@@ -659,7 +659,7 @@
       "first_seen_verse": 21
     },
     "שָׁרְצוּ": {
-      "file": "words/word-133.mp3",
+      "file": "words/gen1-c801e1a9098f8727.mp3",
       "first_seen_verse": 21
     },
     "לְמִֽינֵהֶם": {
@@ -667,43 +667,43 @@
       "first_seen_verse": 21
     },
     "עוֹף": {
-      "file": "words/word-135.mp3",
+      "file": "words/gen1-484b1c7c141d9de9.mp3",
       "first_seen_verse": 21
     },
     "כָּנָף": {
-      "file": "words/word-136.mp3",
+      "file": "words/gen1-0762df8ebbb74cb7.mp3",
       "first_seen_verse": 21
     },
     "וַיְבָרֶךְ": {
-      "file": "words/word-137.mp3",
+      "file": "words/gen1-b494e3a0d3f9a23c.mp3",
       "first_seen_verse": 22
     },
     "לֵאמֹר": {
-      "file": "words/word-138.mp3",
+      "file": "words/gen1-1eda291964472a35.mp3",
       "first_seen_verse": 22
     },
     "פְּרוּ": {
-      "file": "words/word-139.mp3",
+      "file": "words/gen1-40d84c898ddc95ad.mp3",
       "first_seen_verse": 22
     },
     "וּרְבוּ": {
-      "file": "words/word-140.mp3",
+      "file": "words/gen1-20b1b16e0670995f.mp3",
       "first_seen_verse": 22
     },
     "וּמִלְאוּ": {
-      "file": "words/word-141.mp3",
+      "file": "words/gen1-b772d0b08efeb83c.mp3",
       "first_seen_verse": 22
     },
     "בַּיַּמִּים": {
-      "file": "words/word-142.mp3",
+      "file": "words/gen1-b64fa79e2292cbba.mp3",
       "first_seen_verse": 22
     },
     "וְהָעוֹף": {
-      "file": "words/word-143.mp3",
+      "file": "words/gen1-0e4b4b65437c7dd6.mp3",
       "first_seen_verse": 22
     },
     "יִרֶב": {
-      "file": "words/word-144.mp3",
+      "file": "words/gen1-f7dfc424497b9335.mp3",
       "first_seen_verse": 22
     },
     "בָּאָֽרֶץ": {
@@ -715,19 +715,19 @@
       "first_seen_verse": 23
     },
     "תּוֹצֵא": {
-      "file": "words/word-147.mp3",
+      "file": "words/gen1-c01731eaf0223866.mp3",
       "first_seen_verse": 24
     },
     "לְמִינָהּ": {
-      "file": "words/word-148.mp3",
+      "file": "words/gen1-331fb1b082206624.mp3",
       "first_seen_verse": 24
     },
     "בְּהֵמָה": {
-      "file": "words/word-149.mp3",
+      "file": "words/gen1-5baa3986e7612d6c.mp3",
       "first_seen_verse": 24
     },
     "וָרֶמֶשׂ": {
-      "file": "words/word-150.mp3",
+      "file": "words/gen1-75af2bc42adee6b6.mp3",
       "first_seen_verse": 24
     },
     "וְחַֽיְתוֹ": {
@@ -735,15 +735,15 @@
       "first_seen_verse": 24
     },
     "חַיַּת": {
-      "file": "words/word-152.mp3",
+      "file": "words/gen1-ddf67601909b2444.mp3",
       "first_seen_verse": 25
     },
     "הַבְּהֵמָה": {
-      "file": "words/word-153.mp3",
+      "file": "words/gen1-2eeae9271e9e37ed.mp3",
       "first_seen_verse": 25
     },
     "רֶמֶשׂ": {
-      "file": "words/word-154.mp3",
+      "file": "words/gen1-87a630a695309940.mp3",
       "first_seen_verse": 25
     },
     "הָֽאֲדָמָה": {
@@ -755,35 +755,35 @@
       "first_seen_verse": 26
     },
     "אָדָם": {
-      "file": "words/word-157.mp3",
+      "file": "words/gen1-30b448ce1aee0ca2.mp3",
       "first_seen_verse": 26
     },
     "בְּצַלְמֵנוּ": {
-      "file": "words/word-158.mp3",
+      "file": "words/gen1-cbec3e2c9a455d98.mp3",
       "first_seen_verse": 26
     },
     "כִּדְמוּתֵנוּ": {
-      "file": "words/word-159.mp3",
+      "file": "words/gen1-6b4c15405f115852.mp3",
       "first_seen_verse": 26
     },
     "וְיִרְדּוּ": {
-      "file": "words/word-160.mp3",
+      "file": "words/gen1-58f3441d72e17ce6.mp3",
       "first_seen_verse": 26
     },
     "בִדְגַת": {
-      "file": "words/word-161.mp3",
+      "file": "words/gen1-834d2d92a7d10fc2.mp3",
       "first_seen_verse": 26
     },
     "הַיָּם": {
-      "file": "words/word-162.mp3",
+      "file": "words/gen1-2670a3e02ab78f6a.mp3",
       "first_seen_verse": 26
     },
     "וּבְעוֹף": {
-      "file": "words/word-163.mp3",
+      "file": "words/gen1-ed94d9e29bf52a56.mp3",
       "first_seen_verse": 26
     },
     "וּבַבְּהֵמָה": {
-      "file": "words/word-164.mp3",
+      "file": "words/gen1-b59db3ce1a6c8d07.mp3",
       "first_seen_verse": 26
     },
     "וּבְכׇל": {
@@ -791,7 +791,7 @@
       "first_seen_verse": 26
     },
     "הָרֶמֶשׂ": {
-      "file": "words/word-166.mp3",
+      "file": "words/gen1-cc384243b156ccce.mp3",
       "first_seen_verse": 26
     },
     "הָֽרֹמֵשׂ": {
@@ -803,23 +803,23 @@
       "first_seen_verse": 27
     },
     "בְּצַלְמוֹ": {
-      "file": "words/word-169.mp3",
+      "file": "words/gen1-545e8e53c46cc67d.mp3",
       "first_seen_verse": 27
     },
     "בְּצֶלֶם": {
-      "file": "words/word-170.mp3",
+      "file": "words/gen1-45dce366cc469e03.mp3",
       "first_seen_verse": 27
     },
     "אֹתוֹ": {
-      "file": "words/word-171.mp3",
+      "file": "words/gen1-6f6b6d009b6eff08.mp3",
       "first_seen_verse": 27
     },
     "זָכָר": {
-      "file": "words/word-172.mp3",
+      "file": "words/gen1-2931c9425a8fdc73.mp3",
       "first_seen_verse": 27
     },
     "וּנְקֵבָה": {
-      "file": "words/word-173.mp3",
+      "file": "words/gen1-50dd3b276bda8f20.mp3",
       "first_seen_verse": 27
     },
     "אֹתָֽם": {
@@ -827,35 +827,35 @@
       "first_seen_verse": 27
     },
     "לָהֶם": {
-      "file": "words/word-175.mp3",
+      "file": "words/gen1-37bf5383d8853b33.mp3",
       "first_seen_verse": 28
     },
     "וְכִבְשֻׁהָ": {
-      "file": "words/word-176.mp3",
+      "file": "words/gen1-e2c2327d34bde477.mp3",
       "first_seen_verse": 28
     },
     "וּרְדוּ": {
-      "file": "words/word-177.mp3",
+      "file": "words/gen1-b42d76c45ab9d901.mp3",
       "first_seen_verse": 28
     },
     "בִּדְגַת": {
-      "file": "words/word-178.mp3",
+      "file": "words/gen1-5375660c7a0cd378.mp3",
       "first_seen_verse": 28
     },
     "הִנֵּה": {
-      "file": "words/word-179.mp3",
+      "file": "words/gen1-adff9a409c6b9f9f.mp3",
       "first_seen_verse": 29
     },
     "נָתַתִּי": {
-      "file": "words/word-180.mp3",
+      "file": "words/gen1-0a500502ceb7c74b.mp3",
       "first_seen_verse": 29
     },
     "לָכֶם": {
-      "file": "words/word-181.mp3",
+      "file": "words/gen1-ae590c6208501898.mp3",
       "first_seen_verse": 29
     },
     "זֹרֵעַ": {
-      "file": "words/word-182.mp3",
+      "file": "words/gen1-85f04ab43d9340e2.mp3",
       "first_seen_verse": 29
     },
     "כׇל": {
@@ -863,19 +863,19 @@
       "first_seen_verse": 29
     },
     "הָעֵץ": {
-      "file": "words/word-184.mp3",
+      "file": "words/gen1-7e8b71f8181b7138.mp3",
       "first_seen_verse": 29
     },
     "בּוֹ": {
-      "file": "words/word-185.mp3",
+      "file": "words/gen1-2e3828a7c54769eb.mp3",
       "first_seen_verse": 29
     },
     "פְרִי": {
-      "file": "words/word-186.mp3",
+      "file": "words/gen1-c8aee3b58d13d142.mp3",
       "first_seen_verse": 29
     },
     "זָרַע": {
-      "file": "words/word-187.mp3",
+      "file": "words/gen1-94258ab1c05b48b8.mp3",
       "first_seen_verse": 29
     },
     "יִֽהְיֶה": {
@@ -895,15 +895,15 @@
       "first_seen_verse": 30
     },
     "וּלְכֹל": {
-      "file": "words/word-192.mp3",
+      "file": "words/gen1-9a12c6528e8b787b.mp3",
       "first_seen_verse": 30
     },
     "רוֹמֵשׂ": {
-      "file": "words/word-193.mp3",
+      "file": "words/gen1-6a9e3a14c65730aa.mp3",
       "first_seen_verse": 30
     },
     "יֶרֶק": {
-      "file": "words/word-194.mp3",
+      "file": "words/gen1-498ba8329148705e.mp3",
       "first_seen_verse": 30
     },
     "לְאׇכְלָה": {
@@ -911,15 +911,15 @@
       "first_seen_verse": 30
     },
     "עָשָׂה": {
-      "file": "words/word-196.mp3",
+      "file": "words/gen1-7320f0b947558585.mp3",
       "first_seen_verse": 31
     },
     "וְהִנֵּה": {
-      "file": "words/word-197.mp3",
+      "file": "words/gen1-46caed5c371c78af.mp3",
       "first_seen_verse": 31
     },
     "מְאֹד": {
-      "file": "words/word-198.mp3",
+      "file": "words/gen1-0739ed3a673d4972.mp3",
       "first_seen_verse": 31
     },
     "הַשִּׁשִּֽׁי": {
@@ -937,6 +937,114 @@
     "רוּחַ": {
       "file": "repairs/ruach.mp3",
       "first_seen_verse": 2
+    },
+    "וַיְהִי": {
+      "file": "words/gen1-f2ab17447b64a43c.mp3",
+      "first_seen_verse": 3
+    },
+    "לָמָיִם": {
+      "file": "words/gen1-c25b799a3b3098fe.mp3",
+      "first_seen_verse": 6
+    },
+    "כֵן": {
+      "file": "words/gen1-9886a68e7ee82de1.mp3",
+      "first_seen_verse": 7
+    },
+    "שֵׁנִי": {
+      "file": "words/gen1-183953898fda2bb6.mp3",
+      "first_seen_verse": 8
+    },
+    "תַּדְשֵׁא": {
+      "file": "words/gen1-dcd357579c5b4241.mp3",
+      "first_seen_verse": 11
+    },
+    "שְׁלִישִׁי": {
+      "file": "words/gen1-b7fe0a6e910367b1.mp3",
+      "first_seen_verse": 13
+    },
+    "וְשָׁנִים": {
+      "file": "words/gen1-2af80711703c4333.mp3",
+      "first_seen_verse": 14
+    },
+    "הַכּוֹכָבִים": {
+      "file": "words/gen1-bd0e0ca9c806084e.mp3",
+      "first_seen_verse": 16
+    },
+    "וּלֲהַבְדִּיל": {
+      "file": "words/gen1-dc6a884ca60ae340.mp3",
+      "first_seen_verse": 18
+    },
+    "רְבִיעִי": {
+      "file": "words/gen1-2c14459ec34ad534.mp3",
+      "first_seen_verse": 19
+    },
+    "כָּל": {
+      "file": "words/gen1-a8cbabbdcfce09b2.mp3",
+      "first_seen_verse": 21
+    },
+    "הַחַיָּה": {
+      "file": "words/gen1-eee2a374e531c242.mp3",
+      "first_seen_verse": 21
+    },
+    "הָרֹמֶשֶׂת": {
+      "file": "words/gen1-f14c5a319235e3d7.mp3",
+      "first_seen_verse": 21
+    },
+    "לְמִינֵהֶם": {
+      "file": "words/gen1-b564377c016f4087.mp3",
+      "first_seen_verse": 21
+    },
+    "בָּאָרֶץ": {
+      "file": "words/gen1-93ffcabdc3d76f69.mp3",
+      "first_seen_verse": 22
+    },
+    "חֲמִישִׁי": {
+      "file": "words/gen1-18b6e70a5ada8354.mp3",
+      "first_seen_verse": 23
+    },
+    "וְחַיְתוֹ": {
+      "file": "words/gen1-c2278e500643bc48.mp3",
+      "first_seen_verse": 24
+    },
+    "הָאֲדָמָה": {
+      "file": "words/gen1-bc3b72c2fb72ad1f.mp3",
+      "first_seen_verse": 25
+    },
+    "נַעֲשֶׂה": {
+      "file": "words/gen1-6fb1d0b19e54f416.mp3",
+      "first_seen_verse": 26
+    },
+    "וּבְכָל": {
+      "file": "words/gen1-5548ff31376b862a.mp3",
+      "first_seen_verse": 26
+    },
+    "הָרֹמֵשׂ": {
+      "file": "words/gen1-8bfa9b51f2254305.mp3",
+      "first_seen_verse": 26
+    },
+    "הָאָדָם": {
+      "file": "words/gen1-22151c4cf5e38889.mp3",
+      "first_seen_verse": 27
+    },
+    "כָל": {
+      "file": "words/gen1-ec3e77e0dae40d5f.mp3",
+      "first_seen_verse": 29
+    },
+    "יִהְיֶה": {
+      "file": "words/gen1-5910530226c66430.mp3",
+      "first_seen_verse": 29
+    },
+    "לְאָכְלָה": {
+      "file": "words/gen1-311aba5c77ab5bcc.mp3",
+      "first_seen_verse": 29
+    },
+    "וּלְכָל": {
+      "file": "words/gen1-ce01b348fcd22701.mp3",
+      "first_seen_verse": 30
+    },
+    "הַשִּׁשִּׁי": {
+      "file": "words/gen1-25343935ed030f51.mp3",
+      "first_seen_verse": 31
     }
   }
 }
